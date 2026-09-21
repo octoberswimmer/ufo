@@ -1,0 +1,1023 @@
+case 0 0 0
+setOpacity 3f800000
+getClip
+setColor #ff0000
+fill
+case 0 0 1
+setOpacity 3f800000
+getClip
+setColor #ff0000
+fill
+case 0 1 0
+setOpacity 3f800000
+getClip
+setColor #ff0000
+fill
+case 0 1 1
+setOpacity 3f800000
+getClip
+setColor #ff0000
+fill
+case 1 0 0
+setOpacity 3f800000
+case 1 0 1
+setOpacity 3f800000
+case 1 1 0
+setOpacity 3f800000
+case 1 1 1
+setOpacity 3f800000
+case 2 0 0
+setOpacity 3f800000
+case 2 0 1
+setOpacity 3f800000
+case 2 1 0
+setOpacity 3f800000
+case 2 1 1
+setOpacity 3f800000
+case 3 0 0
+setOpacity 3f000000
+getClip
+setColor #ff0000
+fill
+case 3 0 1
+setOpacity 3f000000
+getClip
+setColor #ff0000
+fill
+case 3 1 0
+setOpacity 3f000000
+getClip
+setColor #ff0000
+fill
+case 3 1 1
+setOpacity 3f000000
+getClip
+setColor #ff0000
+fill
+case 4 0 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 10 20
+drawImage 16 12 10 32
+drawImage 16 12 10 44
+drawImage 16 12 10 56
+drawImage 16 12 10 68
+drawImage 16 12 26 20
+drawImage 16 12 26 32
+drawImage 16 12 26 44
+drawImage 16 12 26 56
+drawImage 16 12 26 68
+drawImage 16 12 42 20
+drawImage 16 12 42 32
+drawImage 16 12 42 44
+drawImage 16 12 42 56
+drawImage 16 12 42 68
+drawImage 16 12 58 20
+drawImage 16 12 58 32
+drawImage 16 12 58 44
+drawImage 16 12 58 56
+drawImage 16 12 58 68
+drawImage 16 12 74 20
+drawImage 16 12 74 32
+drawImage 16 12 74 44
+drawImage 16 12 74 56
+drawImage 16 12 74 68
+drawImage 16 12 90 20
+drawImage 16 12 90 32
+drawImage 16 12 90 44
+drawImage 16 12 90 56
+drawImage 16 12 90 68
+drawImage 16 12 106 20
+drawImage 16 12 106 32
+drawImage 16 12 106 44
+drawImage 16 12 106 56
+drawImage 16 12 106 68
+setClip null
+case 4 0 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 10 20
+drawImage 16 12 10 32
+drawImage 16 12 10 44
+drawImage 16 12 10 56
+drawImage 16 12 10 68
+drawImage 16 12 26 20
+drawImage 16 12 26 32
+drawImage 16 12 26 44
+drawImage 16 12 26 56
+drawImage 16 12 26 68
+drawImage 16 12 42 20
+drawImage 16 12 42 32
+drawImage 16 12 42 44
+drawImage 16 12 42 56
+drawImage 16 12 42 68
+drawImage 16 12 58 20
+drawImage 16 12 58 32
+drawImage 16 12 58 44
+drawImage 16 12 58 56
+drawImage 16 12 58 68
+drawImage 16 12 74 20
+drawImage 16 12 74 32
+drawImage 16 12 74 44
+drawImage 16 12 74 56
+drawImage 16 12 74 68
+drawImage 16 12 90 20
+drawImage 16 12 90 32
+drawImage 16 12 90 44
+drawImage 16 12 90 56
+drawImage 16 12 90 68
+drawImage 16 12 106 20
+drawImage 16 12 106 32
+drawImage 16 12 106 44
+drawImage 16 12 106 56
+drawImage 16 12 106 68
+setClip old
+case 4 1 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 -5 15
+drawImage 16 12 -5 27
+drawImage 16 12 -5 39
+drawImage 16 12 -5 51
+drawImage 16 12 -5 63
+drawImage 16 12 -5 75
+drawImage 16 12 11 15
+drawImage 16 12 11 27
+drawImage 16 12 11 39
+drawImage 16 12 11 51
+drawImage 16 12 11 63
+drawImage 16 12 11 75
+drawImage 16 12 27 15
+drawImage 16 12 27 27
+drawImage 16 12 27 39
+drawImage 16 12 27 51
+drawImage 16 12 27 63
+drawImage 16 12 27 75
+drawImage 16 12 43 15
+drawImage 16 12 43 27
+drawImage 16 12 43 39
+drawImage 16 12 43 51
+drawImage 16 12 43 63
+drawImage 16 12 43 75
+drawImage 16 12 59 15
+drawImage 16 12 59 27
+drawImage 16 12 59 39
+drawImage 16 12 59 51
+drawImage 16 12 59 63
+drawImage 16 12 59 75
+drawImage 16 12 75 15
+drawImage 16 12 75 27
+drawImage 16 12 75 39
+drawImage 16 12 75 51
+drawImage 16 12 75 63
+drawImage 16 12 75 75
+drawImage 16 12 91 15
+drawImage 16 12 91 27
+drawImage 16 12 91 39
+drawImage 16 12 91 51
+drawImage 16 12 91 63
+drawImage 16 12 91 75
+drawImage 16 12 107 15
+drawImage 16 12 107 27
+drawImage 16 12 107 39
+drawImage 16 12 107 51
+drawImage 16 12 107 63
+drawImage 16 12 107 75
+setClip null
+case 4 1 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 -5 15
+drawImage 16 12 -5 27
+drawImage 16 12 -5 39
+drawImage 16 12 -5 51
+drawImage 16 12 -5 63
+drawImage 16 12 -5 75
+drawImage 16 12 11 15
+drawImage 16 12 11 27
+drawImage 16 12 11 39
+drawImage 16 12 11 51
+drawImage 16 12 11 63
+drawImage 16 12 11 75
+drawImage 16 12 27 15
+drawImage 16 12 27 27
+drawImage 16 12 27 39
+drawImage 16 12 27 51
+drawImage 16 12 27 63
+drawImage 16 12 27 75
+drawImage 16 12 43 15
+drawImage 16 12 43 27
+drawImage 16 12 43 39
+drawImage 16 12 43 51
+drawImage 16 12 43 63
+drawImage 16 12 43 75
+drawImage 16 12 59 15
+drawImage 16 12 59 27
+drawImage 16 12 59 39
+drawImage 16 12 59 51
+drawImage 16 12 59 63
+drawImage 16 12 59 75
+drawImage 16 12 75 15
+drawImage 16 12 75 27
+drawImage 16 12 75 39
+drawImage 16 12 75 51
+drawImage 16 12 75 63
+drawImage 16 12 75 75
+drawImage 16 12 91 15
+drawImage 16 12 91 27
+drawImage 16 12 91 39
+drawImage 16 12 91 51
+drawImage 16 12 91 63
+drawImage 16 12 91 75
+drawImage 16 12 107 15
+drawImage 16 12 107 27
+drawImage 16 12 107 39
+drawImage 16 12 107 51
+drawImage 16 12 107 63
+drawImage 16 12 107 75
+setClip old
+case 5 0 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 52 44
+setClip null
+case 5 0 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 52 44
+setClip old
+case 5 1 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 7 20
+setClip null
+case 5 1 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 7 20
+setClip old
+case 6 0 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 -1 23
+drawImage 16 12 15 23
+drawImage 16 12 31 23
+drawImage 16 12 47 23
+drawImage 16 12 63 23
+drawImage 16 12 79 23
+drawImage 16 12 95 23
+setClip null
+case 6 0 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 -1 23
+drawImage 16 12 15 23
+drawImage 16 12 31 23
+drawImage 16 12 47 23
+drawImage 16 12 63 23
+drawImage 16 12 79 23
+drawImage 16 12 95 23
+setClip old
+case 6 1 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+setClip null
+case 6 1 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+setClip old
+case 7 0 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 97 11
+drawImage 16 12 97 23
+drawImage 16 12 97 35
+drawImage 16 12 97 47
+drawImage 16 12 97 59
+drawImage 16 12 97 71
+setClip null
+case 7 0 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 97 11
+drawImage 16 12 97 23
+drawImage 16 12 97 35
+drawImage 16 12 97 47
+drawImage 16 12 97 59
+drawImage 16 12 97 71
+setClip old
+case 7 1 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 22 18
+drawImage 16 12 22 30
+drawImage 16 12 22 42
+drawImage 16 12 22 54
+drawImage 16 12 22 66
+drawImage 16 12 22 78
+setClip null
+case 7 1 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 22 18
+drawImage 16 12 22 30
+drawImage 16 12 22 42
+drawImage 16 12 22 54
+drawImage 16 12 22 66
+drawImage 16 12 22 78
+setClip old
+case 8 0 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale -1 60
+drawImage 80 60 10 20
+setClip null
+case 8 0 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale -1 60
+drawImage 80 60 10 20
+setClip old
+case 8 1 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale 40 -1
+drawImage 40 30 -5 3
+setClip null
+case 8 1 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale 40 -1
+drawImage 40 30 -5 3
+setClip old
+case 9 0 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale 100 -1
+drawImage 100 75 10 20
+setClip null
+case 9 0 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale 100 -1
+drawImage 100 75 10 20
+setClip old
+case 9 1 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale -1 45
+drawImage 60 45 -5 3
+setClip null
+case 9 1 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale -1 45
+drawImage 60 45 -5 3
+setClip old
+case 10 0 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale 50 -1
+drawImage 50 37 10 20
+setClip null
+case 10 0 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale 50 -1
+drawImage 50 37 10 20
+setClip old
+case 10 1 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale 20 -1
+setClip null
+case 10 1 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale 20 -1
+setClip old
+case 11 0 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale 20 30
+drawImage 20 30 10 20
+drawImage 20 30 10 50
+drawImage 20 30 30 20
+drawImage 20 30 30 50
+drawImage 20 30 50 20
+drawImage 20 30 50 50
+drawImage 20 30 70 20
+drawImage 20 30 70 50
+drawImage 20 30 90 20
+drawImage 20 30 90 50
+setClip null
+case 11 0 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale 20 30
+drawImage 20 30 10 20
+drawImage 20 30 10 50
+drawImage 20 30 30 20
+drawImage 20 30 30 50
+drawImage 20 30 50 20
+drawImage 20 30 50 50
+drawImage 20 30 70 20
+drawImage 20 30 70 50
+drawImage 20 30 90 20
+drawImage 20 30 90 50
+setClip old
+case 11 1 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale 20 30
+drawImage 20 30 -5 3
+drawImage 20 30 -5 33
+drawImage 20 30 -5 63
+drawImage 20 30 15 3
+drawImage 20 30 15 33
+drawImage 20 30 15 63
+drawImage 20 30 35 3
+drawImage 20 30 35 33
+drawImage 20 30 35 63
+drawImage 20 30 55 3
+drawImage 20 30 55 33
+drawImage 20 30 55 63
+drawImage 20 30 75 3
+drawImage 20 30 75 33
+drawImage 20 30 75 63
+drawImage 20 30 95 3
+drawImage 20 30 95 33
+drawImage 20 30 95 63
+setClip null
+case 11 1 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+scale 20 30
+drawImage 20 30 -5 3
+drawImage 20 30 -5 33
+drawImage 20 30 -5 63
+drawImage 20 30 15 3
+drawImage 20 30 15 33
+drawImage 20 30 15 63
+drawImage 20 30 35 3
+drawImage 20 30 35 33
+drawImage 20 30 35 63
+drawImage 20 30 55 3
+drawImage 20 30 55 33
+drawImage 20 30 55 63
+drawImage 20 30 75 3
+drawImage 20 30 75 33
+drawImage 20 30 75 63
+drawImage 20 30 95 3
+drawImage 20 30 95 33
+drawImage 20 30 95 63
+setClip old
+case 12 0 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 2 54
+drawImage 16 12 18 54
+drawImage 16 12 34 54
+drawImage 16 12 50 54
+drawImage 16 12 66 54
+drawImage 16 12 82 54
+drawImage 16 12 98 54
+setClip null
+case 12 0 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 2 54
+drawImage 16 12 18 54
+drawImage 16 12 34 54
+drawImage 16 12 50 54
+drawImage 16 12 66 54
+drawImage 16 12 82 54
+drawImage 16 12 98 54
+setClip old
+case 12 1 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 3 26
+drawImage 16 12 19 26
+drawImage 16 12 35 26
+drawImage 16 12 51 26
+drawImage 16 12 67 26
+drawImage 16 12 83 26
+drawImage 16 12 99 26
+setClip null
+case 12 1 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 3 26
+drawImage 16 12 19 26
+drawImage 16 12 35 26
+drawImage 16 12 51 26
+drawImage 16 12 67 26
+drawImage 16 12 83 26
+drawImage 16 12 99 26
+setClip old
+case 13 0 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 40 19
+drawImage 16 12 40 31
+drawImage 16 12 40 43
+drawImage 16 12 40 55
+drawImage 16 12 40 67
+drawImage 16 12 40 79
+setClip null
+case 13 0 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 40 19
+drawImage 16 12 40 31
+drawImage 16 12 40 43
+drawImage 16 12 40 55
+drawImage 16 12 40 67
+drawImage 16 12 40 79
+setClip old
+case 13 1 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 25 14
+drawImage 16 12 25 26
+drawImage 16 12 25 38
+drawImage 16 12 25 50
+drawImage 16 12 25 62
+drawImage 16 12 25 74
+setClip null
+case 13 1 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 25 14
+drawImage 16 12 25 26
+drawImage 16 12 25 38
+drawImage 16 12 25 50
+drawImage 16 12 25 62
+drawImage 16 12 25 74
+setClip old
+case 14 0 0
+setOpacity 3f800000
+getClip
+setClip area
+clip
+drawLinearGradient 10 20 100 60
+setClip null
+case 14 0 1
+setOpacity 3f800000
+getClip
+setClip area
+clip
+drawLinearGradient 10 20 100 60
+setClip old
+case 14 1 0
+setOpacity 3f800000
+getClip
+setClip area
+clip
+drawLinearGradient 10 20 100 60
+setClip null
+case 14 1 1
+setOpacity 3f800000
+getClip
+setClip area
+clip
+drawLinearGradient 10 20 100 60
+setClip old
+case 15 0 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setColor #0000ff
+fill
+setClip area
+clip
+setClip null
+case 15 0 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setColor #0000ff
+fill
+setClip area
+clip
+setClip old
+case 15 1 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setColor #0000ff
+fill
+setClip area
+clip
+setClip null
+case 15 1 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setColor #0000ff
+fill
+setClip area
+clip
+setClip old
+case 16 0 0
+setOpacity 3f800000
+getImageResource empty.png
+getClip
+setColor #0000ff
+fill
+case 16 0 1
+setOpacity 3f800000
+getImageResource empty.png
+getClip
+setColor #0000ff
+fill
+case 16 1 0
+setOpacity 3f800000
+getImageResource empty.png
+getClip
+setColor #0000ff
+fill
+case 16 1 1
+setOpacity 3f800000
+getImageResource empty.png
+getClip
+setColor #0000ff
+fill
+case 17 0 0
+setOpacity 3f800000
+getImageResource none.png
+getClip
+setColor #0000ff
+fill
+case 17 0 1
+setOpacity 3f800000
+getImageResource none.png
+getClip
+setColor #0000ff
+fill
+case 17 1 0
+setOpacity 3f800000
+getImageResource none.png
+getClip
+setColor #0000ff
+fill
+case 17 1 1
+setOpacity 3f800000
+getImageResource none.png
+getClip
+setColor #0000ff
+fill
+case 18 0 0
+setOpacity 3f800000
+getImageResource missing.png
+getClip
+setColor #0000ff
+fill
+case 18 0 1
+setOpacity 3f800000
+getImageResource missing.png
+getClip
+setColor #0000ff
+fill
+case 18 1 0
+setOpacity 3f800000
+getImageResource missing.png
+getClip
+setColor #0000ff
+fill
+case 18 1 1
+setOpacity 3f800000
+getImageResource missing.png
+getClip
+setColor #0000ff
+fill
+case 19 0 0
+setOpacity 3f800000
+getImageResource missing.png
+case 19 0 1
+setOpacity 3f800000
+getImageResource missing.png
+case 19 1 0
+setOpacity 3f800000
+getImageResource missing.png
+case 19 1 1
+setOpacity 3f800000
+getImageResource missing.png
+case 20 0 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 1 10
+drawImage 16 12 1 22
+drawImage 16 12 1 34
+drawImage 16 12 1 46
+drawImage 16 12 1 58
+drawImage 16 12 1 70
+drawImage 16 12 17 10
+drawImage 16 12 17 22
+drawImage 16 12 17 34
+drawImage 16 12 17 46
+drawImage 16 12 17 58
+drawImage 16 12 17 70
+drawImage 16 12 33 10
+drawImage 16 12 33 22
+drawImage 16 12 33 34
+drawImage 16 12 33 46
+drawImage 16 12 33 58
+drawImage 16 12 33 70
+drawImage 16 12 49 10
+drawImage 16 12 49 22
+drawImage 16 12 49 34
+drawImage 16 12 49 46
+drawImage 16 12 49 58
+drawImage 16 12 49 70
+drawImage 16 12 65 10
+drawImage 16 12 65 22
+drawImage 16 12 65 34
+drawImage 16 12 65 46
+drawImage 16 12 65 58
+drawImage 16 12 65 70
+drawImage 16 12 81 10
+drawImage 16 12 81 22
+drawImage 16 12 81 34
+drawImage 16 12 81 46
+drawImage 16 12 81 58
+drawImage 16 12 81 70
+drawImage 16 12 97 10
+drawImage 16 12 97 22
+drawImage 16 12 97 34
+drawImage 16 12 97 46
+drawImage 16 12 97 58
+drawImage 16 12 97 70
+setClip null
+case 20 0 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 1 10
+drawImage 16 12 1 22
+drawImage 16 12 1 34
+drawImage 16 12 1 46
+drawImage 16 12 1 58
+drawImage 16 12 1 70
+drawImage 16 12 17 10
+drawImage 16 12 17 22
+drawImage 16 12 17 34
+drawImage 16 12 17 46
+drawImage 16 12 17 58
+drawImage 16 12 17 70
+drawImage 16 12 33 10
+drawImage 16 12 33 22
+drawImage 16 12 33 34
+drawImage 16 12 33 46
+drawImage 16 12 33 58
+drawImage 16 12 33 70
+drawImage 16 12 49 10
+drawImage 16 12 49 22
+drawImage 16 12 49 34
+drawImage 16 12 49 46
+drawImage 16 12 49 58
+drawImage 16 12 49 70
+drawImage 16 12 65 10
+drawImage 16 12 65 22
+drawImage 16 12 65 34
+drawImage 16 12 65 46
+drawImage 16 12 65 58
+drawImage 16 12 65 70
+drawImage 16 12 81 10
+drawImage 16 12 81 22
+drawImage 16 12 81 34
+drawImage 16 12 81 46
+drawImage 16 12 81 58
+drawImage 16 12 81 70
+drawImage 16 12 97 10
+drawImage 16 12 97 22
+drawImage 16 12 97 34
+drawImage 16 12 97 46
+drawImage 16 12 97 58
+drawImage 16 12 97 70
+setClip old
+case 20 1 0
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 2 17
+drawImage 16 12 2 29
+drawImage 16 12 2 41
+drawImage 16 12 2 53
+drawImage 16 12 2 65
+drawImage 16 12 2 77
+drawImage 16 12 18 17
+drawImage 16 12 18 29
+drawImage 16 12 18 41
+drawImage 16 12 18 53
+drawImage 16 12 18 65
+drawImage 16 12 18 77
+drawImage 16 12 34 17
+drawImage 16 12 34 29
+drawImage 16 12 34 41
+drawImage 16 12 34 53
+drawImage 16 12 34 65
+drawImage 16 12 34 77
+drawImage 16 12 50 17
+drawImage 16 12 50 29
+drawImage 16 12 50 41
+drawImage 16 12 50 53
+drawImage 16 12 50 65
+drawImage 16 12 50 77
+drawImage 16 12 66 17
+drawImage 16 12 66 29
+drawImage 16 12 66 41
+drawImage 16 12 66 53
+drawImage 16 12 66 65
+drawImage 16 12 66 77
+drawImage 16 12 82 17
+drawImage 16 12 82 29
+drawImage 16 12 82 41
+drawImage 16 12 82 53
+drawImage 16 12 82 65
+drawImage 16 12 82 77
+drawImage 16 12 98 17
+drawImage 16 12 98 29
+drawImage 16 12 98 41
+drawImage 16 12 98 53
+drawImage 16 12 98 65
+drawImage 16 12 98 77
+setClip null
+case 20 1 1
+setOpacity 3f800000
+getImageResource img.png
+getClip
+setClip area
+clip
+drawImage 16 12 2 17
+drawImage 16 12 2 29
+drawImage 16 12 2 41
+drawImage 16 12 2 53
+drawImage 16 12 2 65
+drawImage 16 12 2 77
+drawImage 16 12 18 17
+drawImage 16 12 18 29
+drawImage 16 12 18 41
+drawImage 16 12 18 53
+drawImage 16 12 18 65
+drawImage 16 12 18 77
+drawImage 16 12 34 17
+drawImage 16 12 34 29
+drawImage 16 12 34 41
+drawImage 16 12 34 53
+drawImage 16 12 34 65
+drawImage 16 12 34 77
+drawImage 16 12 50 17
+drawImage 16 12 50 29
+drawImage 16 12 50 41
+drawImage 16 12 50 53
+drawImage 16 12 50 65
+drawImage 16 12 50 77
+drawImage 16 12 66 17
+drawImage 16 12 66 29
+drawImage 16 12 66 41
+drawImage 16 12 66 53
+drawImage 16 12 66 65
+drawImage 16 12 66 77
+drawImage 16 12 82 17
+drawImage 16 12 82 29
+drawImage 16 12 82 41
+drawImage 16 12 82 53
+drawImage 16 12 82 65
+drawImage 16 12 82 77
+drawImage 16 12 98 17
+drawImage 16 12 98 29
+drawImage 16 12 98 41
+drawImage 16 12 98 53
+drawImage 16 12 98 65
+drawImage 16 12 98 77
+setClip old
+case nullborder

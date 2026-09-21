@@ -1,0 +1,24 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><style>
+@page { size: 400px 300px; margin: 20px; }
+body { font-size: 12pt; }
+h2 { page-break-after: avoid; }
+.keep { page-break-inside: avoid; }
+.pb { page-break-before: always; }
+.pa { page-break-after: always; }
+p { orphans: 2; widows: 2; }
+.cols { column-count: 2; column-gap: 20px; }
+.rel { position: relative; top: 10px; left: 5px; }
+</style></head><body>
+<h2>Heading one</h2>
+<p>The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
+<p class="keep">Keep together. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
+<h2>Heading two</h2>
+<p>After heading two. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
+<p class="rel">Relative. The quick brown fox jumps over the lazy dog.</p>
+<h2>Heading three</h2>
+<p class="keep">Keep together two. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
+<p class="pb">Forced break before.</p>
+<p class="pa">Forced break after.</p>
+<div class="cols"><p>Column one text. The quick brown fox jumps over the lazy dog.</p><p>Column two text. The quick brown fox jumps over the lazy dog.</p><p class="keep">Column three text. The quick brown fox.</p></div>
+<p>Last paragraph. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
+</body></html>

@@ -1,0 +1,162 @@
+BlockBox 0,0 7200x28118 abs 0,0
+  BlockBox 0,0 7200x28118 abs 0,0
+    BlockBox 0,0 6880x528 abs 160,160
+      LineBox 0,0 2640x528 abs 160,160 baseline 408 paint 24+480 cw 2640
+        InlineLayoutBox 0,24 0x480 abs 160,184 iw 2640 baseline 384 S E
+          T 0 2640 'Heading one'
+    BlockBox 0,528 6880x2472 abs 160,688
+      LineBox 0,0 6400x352 abs 160,1048 baseline 272 paint 16+320 cw 6400
+        InlineLayoutBox 0,16 0x320 abs 160,1064 iw 6400 baseline 256 S
+          T 0 6400 'The quick brown fox jumps over the lazy '
+      LineBox 0,352 6400x352 abs 160,1400 baseline 272 paint 16+320 cw 6400
+        InlineLayoutBox 0,16 0x320 abs 160,1416 iw 6400 baseline 256
+          T 0 6400 'dog. The quick brown fox jumps over the '
+      LineBox 0,704 6560x352 abs 160,1752 baseline 272 paint 16+320 cw 6560
+        InlineLayoutBox 0,16 0x320 abs 160,1768 iw 6560 baseline 256
+          T 0 6560 'lazy dog. The quick brown fox jumps over '
+      LineBox 0,1056 6400x352 abs 160,2104 baseline 272 paint 16+320 cw 6400
+        InlineLayoutBox 0,16 0x320 abs 160,2120 iw 6400 baseline 256
+          T 0 6400 'the lazy dog. The quick brown fox jumps '
+      LineBox 0,1408 6240x352 abs 160,2456 baseline 272 paint 16+320 cw 6240
+        InlineLayoutBox 0,16 0x320 abs 160,2472 iw 6240 baseline 256
+          T 0 6240 'over the lazy dog. The quick brown fox '
+      LineBox 0,1760 3840x352 abs 160,2808 baseline 272 paint 16+320 cw 3840
+        InlineLayoutBox 0,16 0x320 abs 160,2824 iw 3840 baseline 256 E
+          T 0 3840 'jumps over the lazy dog.'
+    BlockBox 0,5040 6880x2118 abs 160,5200
+      LineBox 0,0 6560x352 abs 160,5558 baseline 272 paint 16+320 cw 6560
+        InlineLayoutBox 0,16 0x320 abs 160,5574 iw 6560 baseline 256 S
+          T 0 6560 'Keep together. The quick brown fox jumps '
+      LineBox 0,352 6240x352 abs 160,5910 baseline 272 paint 16+320 cw 6240
+        InlineLayoutBox 0,16 0x320 abs 160,5926 iw 6240 baseline 256
+          T 0 6240 'over the lazy dog. The quick brown fox '
+      LineBox 0,704 6560x352 abs 160,6262 baseline 272 paint 16+320 cw 6560
+        InlineLayoutBox 0,16 0x320 abs 160,6278 iw 6560 baseline 256
+          T 0 6560 'jumps over the lazy dog. The quick brown '
+      LineBox 0,1056 6240x352 abs 160,6614 baseline 272 paint 16+320 cw 6240
+        InlineLayoutBox 0,16 0x320 abs 160,6630 iw 6240 baseline 256
+          T 0 6240 'fox jumps over the lazy dog. The quick '
+      LineBox 0,1408 5440x352 abs 160,6966 baseline 272 paint 16+320 cw 5440
+        InlineLayoutBox 0,16 0x320 abs 160,6982 iw 5440 baseline 256 E
+          T 0 5440 'brown fox jumps over the lazy dog.'
+    BlockBox 0,7158 6880x888 abs 160,7318
+      LineBox 0,0 2640x528 abs 160,7678 baseline 408 paint 24+480 cw 2640
+        InlineLayoutBox 0,24 0x480 abs 160,7702 iw 2640 baseline 384 S E
+          T 0 2640 'Heading two'
+    BlockBox 0,8046 6880x1768 abs 160,8206
+      LineBox 0,0 6240x352 abs 160,8566 baseline 272 paint 16+320 cw 6240
+        InlineLayoutBox 0,16 0x320 abs 160,8582 iw 6240 baseline 256 S
+          T 0 6240 'After heading two. The quick brown fox '
+      LineBox 0,352 6560x352 abs 160,8918 baseline 272 paint 16+320 cw 6560
+        InlineLayoutBox 0,16 0x320 abs 160,8934 iw 6560 baseline 256
+          T 0 6560 'jumps over the lazy dog. The quick brown '
+      LineBox 0,704 6240x352 abs 160,9270 baseline 272 paint 16+320 cw 6240
+        InlineLayoutBox 0,16 0x320 abs 160,9286 iw 6240 baseline 256
+          T 0 6240 'fox jumps over the lazy dog. The quick '
+      LineBox 0,1056 5440x352 abs 160,9622 baseline 272 paint 16+320 cw 5440
+        InlineLayoutBox 0,16 0x320 abs 160,9638 iw 5440 baseline 256 E
+          T 0 5440 'brown fox jumps over the lazy dog.'
+    BlockBox 100,10014 6880x1062 abs 260,10174
+      LineBox 0,0 6560x352 abs 260,10532 baseline 272 paint 16+320 cw 6560
+        InlineLayoutBox 0,16 0x320 abs 260,10548 iw 6560 baseline 256 S
+          T 0 6560 'Relative. The quick brown fox jumps over '
+      LineBox 0,352 2080x352 abs 260,10884 baseline 272 paint 16+320 cw 2080
+        InlineLayoutBox 0,16 0x320 abs 260,10900 iw 2080 baseline 256 E
+          T 0 2080 'the lazy dog.'
+    BlockBox 0,10876 6880x888 abs 160,11036
+      LineBox 0,0 3120x528 abs 160,11396 baseline 408 paint 24+480 cw 3120
+        InlineLayoutBox 0,24 0x480 abs 160,11420 iw 3120 baseline 384 S E
+          T 0 3120 'Heading three'
+    BlockBox 0,11764 6880x2824 abs 160,11924
+      LineBox 0,0 6240x352 abs 160,12284 baseline 272 paint 16+320 cw 6240
+        InlineLayoutBox 0,16 0x320 abs 160,12300 iw 6240 baseline 256 S
+          T 0 6240 'Keep together two. The quick brown fox '
+      LineBox 0,352 6560x352 abs 160,12636 baseline 272 paint 16+320 cw 6560
+        InlineLayoutBox 0,16 0x320 abs 160,12652 iw 6560 baseline 256
+          T 0 6560 'jumps over the lazy dog. The quick brown '
+      LineBox 0,704 6240x352 abs 160,12988 baseline 272 paint 16+320 cw 6240
+        InlineLayoutBox 0,16 0x320 abs 160,13004 iw 6240 baseline 256
+          T 0 6240 'fox jumps over the lazy dog. The quick '
+      LineBox 0,1056 6240x352 abs 160,13340 baseline 272 paint 16+320 cw 6240
+        InlineLayoutBox 0,16 0x320 abs 160,13356 iw 6240 baseline 256
+          T 0 6240 'brown fox jumps over the lazy dog. The '
+      LineBox 0,1408 6560x352 abs 160,13692 baseline 272 paint 16+320 cw 6560
+        InlineLayoutBox 0,16 0x320 abs 160,13708 iw 6560 baseline 256
+          T 0 6560 'quick brown fox jumps over the lazy dog. '
+      LineBox 0,1760 6400x352 abs 160,14044 baseline 272 paint 16+320 cw 6400
+        InlineLayoutBox 0,16 0x320 abs 160,14060 iw 6400 baseline 256
+          T 0 6400 'The quick brown fox jumps over the lazy '
+      LineBox 0,2112 640x352 abs 160,14396 baseline 272 paint 16+320 cw 640
+        InlineLayoutBox 0,16 0x320 abs 160,14412 iw 640 baseline 256 E
+          T 0 640 'dog.'
+    BlockBox 0,15440 6880x710 abs 160,15600
+      LineBox 0,0 3200x352 abs 160,15958 baseline 272 paint 16+320 cw 3200
+        InlineLayoutBox 0,16 0x320 abs 160,15974 iw 3200 baseline 256 S E
+          T 0 3200 'Forced break before.'
+    BlockBox 0,16150 6880x710 abs 160,16310
+      LineBox 0,0 3040x352 abs 160,16668 baseline 272 paint 16+320 cw 3040
+        InlineLayoutBox 0,16 0x320 abs 160,16684 iw 3040 baseline 256 S E
+          T 0 3040 'Forced break after.'
+    BlockBox 0,20640 6880x3186 abs 160,20800
+      BlockBox 0,0 3240x1766 abs 160,20800
+        LineBox 0,0 2720x352 abs 160,21158 baseline 272 paint 16+320 cw 2720
+          InlineLayoutBox 0,16 0x320 abs 160,21174 iw 2720 baseline 256 S
+            T 0 2720 'Column one text. '
+        LineBox 0,352 3200x352 abs 160,21510 baseline 272 paint 16+320 cw 3200
+          InlineLayoutBox 0,16 0x320 abs 160,21526 iw 3200 baseline 256
+            T 0 3200 'The quick brown fox '
+        LineBox 0,704 3200x352 abs 160,21862 baseline 272 paint 16+320 cw 3200
+          InlineLayoutBox 0,16 0x320 abs 160,21878 iw 3200 baseline 256
+            T 0 3200 'jumps over the lazy '
+        LineBox 0,1056 640x352 abs 160,22214 baseline 272 paint 16+320 cw 640
+          InlineLayoutBox 0,16 0x320 abs 160,22230 iw 640 baseline 256 E
+            T 0 640 'dog.'
+      BlockBox 3640,0 3240x1766 abs 3800,20800
+        LineBox 0,0 2720x352 abs 3800,21158 baseline 272 paint 16+320 cw 2720
+          InlineLayoutBox 0,16 0x320 abs 3800,21174 iw 2720 baseline 256 S
+            T 0 2720 'Column two text. '
+        LineBox 0,352 3200x352 abs 3800,21510 baseline 272 paint 16+320 cw 3200
+          InlineLayoutBox 0,16 0x320 abs 3800,21526 iw 3200 baseline 256
+            T 0 3200 'The quick brown fox '
+        LineBox 0,704 3200x352 abs 3800,21862 baseline 272 paint 16+320 cw 3200
+          InlineLayoutBox 0,16 0x320 abs 3800,21878 iw 3200 baseline 256
+            T 0 3200 'jumps over the lazy '
+        LineBox 0,1056 640x352 abs 3800,22214 baseline 272 paint 16+320 cw 640
+          InlineLayoutBox 0,16 0x320 abs 3800,22230 iw 640 baseline 256 E
+            T 0 640 'dog.'
+      BlockBox 3640,1766 3240x1420 abs 3800,22566
+        LineBox 0,0 3040x352 abs 3800,22924 baseline 272 paint 16+320 cw 3040
+          InlineLayoutBox 0,16 0x320 abs 3800,22940 iw 3040 baseline 256 S
+            T 0 3040 'Column three text. '
+        LineBox 0,352 3200x352 abs 3800,23276 baseline 272 paint 16+320 cw 3200
+          InlineLayoutBox 0,16 0x320 abs 3800,23292 iw 3200 baseline 256 E
+            T 0 3200 'The quick brown fox.'
+    BlockBox 0,23826 6880x3774 abs 160,23986
+      LineBox 0,0 6720x352 abs 160,24344 baseline 272 paint 16+320 cw 6720
+        InlineLayoutBox 0,16 0x320 abs 160,24360 iw 6720 baseline 256 S
+          T 0 6720 'Last paragraph. The quick brown fox jumps '
+      LineBox 0,352 6240x352 abs 160,24696 baseline 272 paint 16+320 cw 6240
+        InlineLayoutBox 0,16 0x320 abs 160,24712 iw 6240 baseline 256
+          T 0 6240 'over the lazy dog. The quick brown fox '
+      LineBox 0,704 6560x352 abs 160,25048 baseline 272 paint 16+320 cw 6560
+        InlineLayoutBox 0,16 0x320 abs 160,25064 iw 6560 baseline 256
+          T 0 6560 'jumps over the lazy dog. The quick brown '
+      LineBox 0,1056 6240x352 abs 160,25400 baseline 272 paint 16+320 cw 6240
+        InlineLayoutBox 0,16 0x320 abs 160,25416 iw 6240 baseline 256
+          T 0 6240 'fox jumps over the lazy dog. The quick '
+      LineBox 0,1656 6240x352 abs 160,26000 baseline 272 paint 16+320 cw 6240
+        InlineLayoutBox 0,16 0x320 abs 160,26016 iw 6240 baseline 256
+          T 0 6240 'brown fox jumps over the lazy dog. The '
+      LineBox 0,2008 6560x352 abs 160,26352 baseline 272 paint 16+320 cw 6560
+        InlineLayoutBox 0,16 0x320 abs 160,26368 iw 6560 baseline 256
+          T 0 6560 'quick brown fox jumps over the lazy dog. '
+      LineBox 0,2360 6400x352 abs 160,26704 baseline 272 paint 16+320 cw 6400
+        InlineLayoutBox 0,16 0x320 abs 160,26720 iw 6400 baseline 256
+          T 0 6400 'The quick brown fox jumps over the lazy '
+      LineBox 0,2712 6400x352 abs 160,27056 baseline 272 paint 16+320 cw 6400
+        InlineLayoutBox 0,16 0x320 abs 160,27072 iw 6400 baseline 256
+          T 0 6400 'dog. The quick brown fox jumps over the '
+      LineBox 0,3064 1440x352 abs 160,27408 baseline 272 paint 16+320 cw 1440
+        InlineLayoutBox 0,16 0x320 abs 160,27424 iw 1440 baseline 256 E
+          T 0 1440 'lazy dog.'
+pages 6

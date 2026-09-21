@@ -1,0 +1,54 @@
+# Hello world, foo-bar (baz) 1,000.50 end
+0 6 6 -1 0 true 0
+1 6 6 0 0 false 6
+2 6 6 0 0 false 6
+3 6 6 0 0 false 6
+4 6 6 0 0 false 6
+5 6 6 0 0 false 6
+6 13 13 0 0 true 6
+7 13 13 6 6 false 13
+8 13 13 6 6 false 13
+9 13 13 6 6 false 13
+10 13 13 6 6 false 13
+11 13 13 6 6 false 13
+12 13 13 6 6 false 13
+13 17 17 6 6 true 13
+14 17 17 13 13 false 17
+15 17 17 13 13 false 17
+16 17 17 13 13 false 17
+17 21 21 13 13 true 17
+18 21 21 17 17 false 21
+19 21 21 17 17 false 21
+20 21 21 17 17 false 21
+21 27 27 17 17 true 21
+22 27 27 21 21 false 27
+23 27 27 21 21 false 27
+24 27 27 21 21 false 27
+25 27 27 21 21 false 27
+26 27 27 21 21 false 27
+27 36 36 21 21 true 27
+28 36 36 27 27 false 36
+29 36 36 27 27 false 36
+30 36 36 27 27 false 36
+31 36 36 27 27 false 36
+32 36 36 27 27 false 36
+33 36 36 27 27 false 36
+34 36 36 27 27 false 36
+35 36 36 27 27 false 36
+36 39 39 27 27 true 36
+37 39 39 36 36 false 39
+38 39 39 36 36 false 39
+39 -1 39 36 36 true 39
+# next(n) from first: n result current
+n 0 0 0
+n 1 6 6
+n 3 21 21
+n 2 36 36
+n -1 27 27
+n -4 6 6
+n -5 -1 0
+n 100 -1 39
+n -100 -1 0
+# last previous
+l 39 -1 39 36 0 -1 0
+e 0 -1 0 -1 0 -1 -1 true

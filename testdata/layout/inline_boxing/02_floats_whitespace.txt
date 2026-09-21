@@ -1,0 +1,183 @@
+BlockBox 0,0 14400x16394 abs 0,0
+  BlockBox 0,0 14400x16394 abs 0,0
+    BlockBox 0,0 14080x2464 abs 160,160
+      LineBox 4200,0 6080x352 abs 4360,160 baseline 272 paint 16+320 cw 6080
+        ~BlockBox 0,0 4200x1800 abs 160,160
+        ~  LineBox 0,0 1600x352 abs 260,260 baseline 272 paint 16+320 cw 1600
+        ~    InlineLayoutBox 0,16 0x320 abs 260,276 iw 1600 baseline 256 S E
+        ~      T 0 1600 'left float'
+        ~BlockBox 11080,0 3000x2400 abs 11240,160
+        ~  LineBox 0,0 1760x352 abs 11240,160 baseline 272 paint 16+320 cw 1760
+        ~    InlineLayoutBox 0,16 0x320 abs 11240,176 iw 1760 baseline 256 S E
+        ~      T 0 1760 'right float'
+        InlineLayoutBox 0,16 0x320 abs 4360,176 iw 6080 baseline 256 S
+          T 0 6080 'Text flowing around floats. The quick '
+      LineBox 4200,352 6240x352 abs 4360,512 baseline 272 paint 16+320 cw 6240
+        InlineLayoutBox 0,16 0x320 abs 4360,528 iw 6240 baseline 256
+          T 0 6240 'brown fox jumps over the lazy dog. The '
+      LineBox 4200,704 6560x352 abs 4360,864 baseline 272 paint 16+320 cw 6560
+        InlineLayoutBox 0,16 0x320 abs 4360,880 iw 6560 baseline 256
+          T 0 6560 'quick brown fox jumps over the lazy dog. '
+      LineBox 4200,1056 6400x352 abs 4360,1216 baseline 272 paint 16+320 cw 6400
+        InlineLayoutBox 0,16 0x320 abs 4360,1232 iw 6400 baseline 256
+          T 0 6400 'The quick brown fox jumps over the lazy '
+      LineBox 4200,1408 6400x352 abs 4360,1568 baseline 272 paint 16+320 cw 6400
+        InlineLayoutBox 0,16 0x320 abs 4360,1584 iw 6400 baseline 256
+          T 0 6400 'dog. The quick brown fox jumps over the '
+      LineBox 4200,1760 6560x352 abs 4360,1920 baseline 272 paint 16+320 cw 6560
+        InlineLayoutBox 0,16 0x320 abs 4360,1936 iw 6560 baseline 256
+          T 0 6560 'lazy dog. The quick brown fox jumps over '
+      LineBox 0,2112 9280x352 abs 160,2272 baseline 272 paint 16+320 cw 9280
+        InlineLayoutBox 0,16 0x320 abs 160,2288 iw 9280 baseline 256 E
+          T 0 9280 'the lazy dog. The quick brown fox jumps over the lazy dog.'
+    BlockBox 0,2464 2400x2816 abs 160,2624
+      LineBox 0,0 2400x352 abs 160,2624 baseline 272 paint 16+320 cw 2400
+        InlineLayoutBox 0,16 0x320 abs 160,2640 iw 2400 baseline 256 S
+          T 0 2400 'Supercalifragil'
+      LineBox 0,352 2400x352 abs 160,2976 baseline 272 paint 16+320 cw 2400
+        InlineLayoutBox 0,16 0x320 abs 160,2992 iw 2400 baseline 256
+          T 0 2400 'isticexpialidoc'
+      LineBox 0,704 2400x352 abs 160,3328 baseline 272 paint 16+320 cw 2400
+        ~BlockBox 0,1056 1400x800 abs 160,3680
+        ~  LineBox 0,0 160x352 abs 260,3780 baseline 272 paint 16+320 cw 160
+        ~    InlineLayoutBox 0,16 0x320 abs 260,3796 iw 160 baseline 256 S E
+        ~      T 0 160 'f'
+        InlineLayoutBox 0,16 0x320 abs 160,3344 iw 2400 baseline 256
+          T 0 2240 'ious word and '
+          T 2240 160 'P'
+      LineBox 1400,1056 960x352 abs 1560,3680 baseline 272 paint 16+320 cw 960
+        InlineLayoutBox 0,16 0x320 abs 1560,3696 iw 960 baseline 256
+          T 0 960 'neumon'
+      LineBox 1400,1408 960x352 abs 1560,4032 baseline 272 paint 16+320 cw 960
+        InlineLayoutBox 0,16 0x320 abs 1560,4048 iw 960 baseline 256
+          T 0 960 'oultra'
+      LineBox 1400,1760 960x352 abs 1560,4384 baseline 272 paint 16+320 cw 960
+        InlineLayoutBox 0,16 0x320 abs 1560,4400 iw 960 baseline 256
+          T 0 960 'micros'
+      LineBox 0,2112 2400x352 abs 160,4736 baseline 272 paint 16+320 cw 2400
+        InlineLayoutBox 0,16 0x320 abs 160,4752 iw 2400 baseline 256
+          T 0 2400 'copicsilicovolc'
+      LineBox 0,2464 1920x352 abs 160,5088 baseline 272 paint 16+320 cw 1920
+        InlineLayoutBox 0,16 0x320 abs 160,5104 iw 1920 baseline 256 E
+          T 0 1920 'anoconiosis.'
+    BlockBox 0,5280 2600x1056 abs 160,5440
+      LineBox 0,0 2560x352 abs 160,5440 baseline 272 paint 16+320 cw 2560
+        InlineLayoutBox 0,16 0x320 abs 160,5456 iw 2560 baseline 256 S
+          T 0 2560 'HelloWorld1 Hell'
+      LineBox 0,352 2560x352 abs 160,5792 baseline 272 paint 16+320 cw 2560
+        InlineLayoutBox 0,16 0x320 abs 160,5808 iw 2560 baseline 256
+          T 0 2560 'oWorld2 HelloWor'
+      LineBox 0,704 480x352 abs 160,6144 baseline 272 paint 16+320 cw 480
+        InlineLayoutBox 0,16 0x320 abs 160,6160 iw 480 baseline 256 E
+          T 0 480 'ld3'
+    BlockBox 0,6336 14080x1443 abs 160,6496
+      LineBox 0,0 1064x294 abs 160,6763 baseline 227 paint 13+267 cw 1064 NL
+        InlineLayoutBox 0,13 0x267 abs 160,6776 iw 1064 baseline 214 S
+          T 0 1064 'line one'
+      LineBox 0,294 3192x294 abs 160,7057 baseline 227 paint 13+267 cw 3192 NL
+        InlineLayoutBox 0,13 0x267 abs 160,7070 iw 3192 baseline 214
+          T 0 3192 '  line two   with spaces'
+      LineBox 0,588 0x294 abs 160,7351 baseline 227 paint 13+267 cw 0 NL
+        InlineLayoutBox 0,13 0x267 abs 160,7364 iw 0 baseline 214
+          T 0 0 ''
+      LineBox 0,882 1197x294 abs 160,7645 baseline 227 paint 13+267 cw 1197
+        InlineLayoutBox 0,13 0x267 abs 160,7658 iw 1197 baseline 214 E
+          T 0 1197 'last line'
+    BlockBox 0,7779 4000x1675 abs 160,7939
+      LineBox 0,0 2400x352 abs 160,8206 baseline 272 paint 16+320 cw 2400 NL
+        InlineLayoutBox 0,16 0x320 abs 160,8222 iw 2400 baseline 256 S
+          T 0 2400 'pre   wrap text'
+      LineBox 0,352 3840x352 abs 160,8558 baseline 272 paint 16+320 cw 3840
+        InlineLayoutBox 0,16 0x320 abs 160,8574 iw 3840 baseline 256
+          T 0 3840 'with a line break and a '
+      LineBox 0,704 3360x352 abs 160,8910 baseline 272 paint 16+320 cw 3360
+        InlineLayoutBox 0,16 0x320 abs 160,8926 iw 3360 baseline 256
+          T 0 3360 'long tail that wraps '
+      LineBox 0,1056 960x352 abs 160,9262 baseline 272 paint 16+320 cw 960
+        InlineLayoutBox 0,16 0x320 abs 160,9278 iw 960 baseline 256 E
+          T 0 960 'around'
+    BlockBox 0,9454 4000x1408 abs 160,9614
+      LineBox 0,0 2080x352 abs 160,9614 baseline 272 paint 16+320 cw 2080 NL
+        InlineLayoutBox 0,16 0x320 abs 160,9630 iw 2080 baseline 256 S
+          T 0 2080 'pre line text'
+      LineBox 0,352 3840x352 abs 160,9966 baseline 272 paint 16+320 cw 3840
+        InlineLayoutBox 0,16 0x320 abs 160,9982 iw 3840 baseline 256
+          T 0 3840 'with a line break and a '
+      LineBox 0,704 3360x352 abs 160,10318 baseline 272 paint 16+320 cw 3360
+        InlineLayoutBox 0,16 0x320 abs 160,10334 iw 3360 baseline 256
+          T 0 3360 'long tail that wraps '
+      LineBox 0,1056 960x352 abs 160,10670 baseline 272 paint 16+320 cw 960
+        InlineLayoutBox 0,16 0x320 abs 160,10686 iw 960 baseline 256 E
+          T 0 960 'around'
+    BlockBox 0,10862 2000x352 abs 160,11022
+      LineBox 0,0 6400x352 abs 160,11022 baseline 272 paint 16+320 cw 6400
+        InlineLayoutBox 0,16 0x320 abs 160,11038 iw 6400 baseline 256 S E
+          T 0 6400 'no wrap text that is longer than the box'
+    BlockBox 0,11214 14080x1680 abs 160,11374
+      LineBox 0,0 13400x840 abs 160,11374 baseline 292 paint 0+840 cw 13400
+        InlineLayoutBox 0,36 0x320 abs 160,11410 iw 13400 baseline 256 S
+          T 0 2400 'Inline blocks: '
+          BlockBox 2400,0 2040x840 abs 2560,11374
+            LineBox 0,0 480x352 abs 2580,11394 baseline 272 paint 16+320 cw 480
+              InlineLayoutBox 0,16 0x320 abs 2580,11410 iw 480 baseline 256 S E
+                T 0 480 'one'
+          T 4440 160 ' '
+          BlockBox 4600,0 2040x840 abs 4760,11374
+            LineBox 0,0 480x352 abs 4780,11394 baseline 272 paint 16+320 cw 480
+              InlineLayoutBox 0,16 0x320 abs 4780,11410 iw 480 baseline 256 S E
+                T 0 480 'two'
+          T 6640 160 ' '
+          BlockBox 6800,0 2040x840 abs 6960,11374
+            LineBox 0,0 800x352 abs 6980,11394 baseline 272 paint 16+320 cw 800
+              InlineLayoutBox 0,16 0x320 abs 6980,11410 iw 800 baseline 256 S E
+                T 0 800 'three'
+          T 8840 160 ' '
+          BlockBox 9000,0 2040x840 abs 9160,11374
+            LineBox 0,0 640x352 abs 9180,11394 baseline 272 paint 16+320 cw 640
+              InlineLayoutBox 0,16 0x320 abs 9180,11410 iw 640 baseline 256 S E
+                T 0 640 'four'
+          T 11040 160 ' '
+          BlockBox 11200,0 2040x840 abs 11360,11374
+            LineBox 0,0 640x352 abs 11380,11394 baseline 272 paint 16+320 cw 640
+              InlineLayoutBox 0,16 0x320 abs 11380,11410 iw 640 baseline 256 S E
+                T 0 640 'five'
+          T 13240 160 ' '
+      LineBox 0,840 4880x840 abs 160,12214 baseline 292 paint 0+840 cw 4880
+        InlineLayoutBox 0,36 0x320 abs 160,12250 iw 4880 baseline 256 E
+          BlockBox 0,0 2040x840 abs 160,12214
+            LineBox 0,0 480x352 abs 180,12234 baseline 272 paint 16+320 cw 480
+              InlineLayoutBox 0,16 0x320 abs 180,12250 iw 480 baseline 256 S E
+                T 0 480 'six'
+          T 2040 160 ' '
+          BlockBox 2200,0 2040x840 abs 2360,12214
+            LineBox 0,0 800x352 abs 2380,12234 baseline 272 paint 16+320 cw 800
+              InlineLayoutBox 0,16 0x320 abs 2380,12250 iw 800 baseline 256 S E
+                T 0 800 'seven'
+          T 4240 640 ' end'
+    BlockBox 0,12894 4400x1056 abs 160,13054
+      LineBox 0,0 3800x352 abs 160,13054 baseline 272 paint 16+320 cw 3800
+        InlineLayoutBox 0,16 0x320 abs 160,13070 iw 3800 baseline 256 S
+          T 0 3800 'Letter spaced text '
+      LineBox 0,352 3200x352 abs 160,13406 baseline 272 paint 16+320 cw 3200
+        InlineLayoutBox 0,16 0x320 abs 160,13422 iw 3200 baseline 256
+          T 0 3200 'that wraps over '
+      LineBox 0,704 3800x352 abs 160,13758 baseline 272 paint 16+320 cw 3800
+        InlineLayoutBox 0,16 0x320 abs 160,13774 iw 3800 baseline 256 E
+          T 0 3800 'several lines here.'
+    BlockBox 0,13950 14080x1414 abs 160,14110
+      BlockBox 0,0 13280x352 abs 960,14468
+        LineBox 0,0 1280x352 abs 960,14468 baseline 272 paint 16+320 cw 1280
+          InlineLayoutBox 0,16 0x320 abs 960,14484 iw 1280 baseline 256 S E
+            T 0 1280 'item one'
+      BlockBox 0,352 13280x704 abs 960,14820
+        LineBox 318,0 12320x352 abs 1278,14820 baseline 272 paint 16+320 cw 12320
+          InlineLayoutBox 0,16 0x320 abs 1278,14836 iw 12320 baseline 256 S
+            T 0 12320 'item two inside marker with a long text that wraps onto the next line of the '
+        LineBox 0,352 3520x352 abs 960,15172 baseline 272 paint 16+320 cw 3520
+          InlineLayoutBox 0,16 0x320 abs 960,15188 iw 3520 baseline 256 E
+            T 0 3520 'list item for sure yes'
+    BlockBox 0,15364 14080x710 abs 160,15524
+      LineBox 0,0 12960x352 abs 160,15882 baseline 272 paint 16+320 cw 12960
+        InlineLayoutBox 0,16 0x320 abs 160,15898 iw 12960 baseline 256 S E
+          T 0 12960 'naïve café 日本語のテキストです。これは長い文章です。日本語のテキストです。これは長い文章です。日本語のテキストです。これは長い文章です。 😀😁 end'
+pages 1

@@ -1,0 +1,5 @@
+# Built by the Makefile.
+/ufo
+/ufo_*
+/*.zip
+/SHA256SUMS-*

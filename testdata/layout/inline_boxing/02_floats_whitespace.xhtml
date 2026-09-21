@@ -1,0 +1,30 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><style>
+body { font-size: 12pt; }
+.fl { float: left; width: 200px; height: 80px; margin: 5px; }
+.fr { float: right; width: 150px; height: 120px; }
+.narrow { width: 120px; word-wrap: break-word; }
+.ba { width: 130px; word-break: break-all; }
+pre { font-size: 10pt; }
+.pw { white-space: pre-wrap; width: 200px; }
+.pl { white-space: pre-line; width: 200px; }
+.nw { white-space: nowrap; width: 100px; }
+.ib { display: inline-block; width: 100px; height: 40px; border: 1px solid black; }
+.ls { letter-spacing: 2px; width: 220px; }
+</style></head><body>
+<div><div class="fl">left float</div><div class="fr">right float</div>Text flowing around floats. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</div>
+<div style="clear: both" class="narrow">Supercalifragilisticexpialidocious word and <span class="fl" style="width: 60px; height: 30px">f</span> Pneumonoultramicroscopicsilicovolcanoconiosis.</div>
+<div class="ba">HelloWorld1 HelloWorld2 HelloWorld3</div>
+<pre>line one
+  line two   with spaces
+
+last line</pre>
+<div class="pw">pre   wrap text
+with a line break and a long tail that wraps around</div>
+<div class="pl">pre   line text
+with a line break and a long tail that wraps around</div>
+<div class="nw">no wrap text that is longer than the box</div>
+<div>Inline blocks: <span class="ib">one</span> <span class="ib">two</span> <span class="ib">three</span> <span class="ib">four</span> <span class="ib">five</span> <span class="ib">six</span> <span class="ib">seven</span> end</div>
+<div class="ls">Letter spaced text that wraps over several lines here.</div>
+<ul><li>item one</li><li style="list-style-position: inside">item two inside marker with a long text that wraps onto the next line of the list item for sure yes</li></ul>
+<div>naïve café 日本語のテキストです。これは長い文章です。日本語のテキストです。これは長い文章です。日本語のテキストです。これは長い文章です。 😀😁 end</div>
+</body></html>

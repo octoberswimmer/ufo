@@ -1,0 +1,2233 @@
+run 0
+translate BlockFormattingContext: (3,-13)
+float x=296 y=0 ax=317 ay=19 mgr=true
+remove offset=3,-13 mgr=true after=true
+line left=0 right=0 both=0 delta=0
+clear y=17 clearDelta=-17
+translate BlockFormattingContext: (-2,-8)
+line left=0 right=0 both=0 delta=0
+translate BlockFormattingContext: (-2,-12)
+float x=0 y=44 ax=26 ay=62 mgr=true
+float x=0 y=91 ax=26 ay=109 mgr=true
+float x=274 y=91 ax=300 ay=109 mgr=true
+line left=51 right=0 both=51 delta=52
+clear y=51 clearDelta=72
+float x=142 y=111 ax=168 ay=129 mgr=true
+float x=0 y=153 ax=26 ay=171 mgr=true
+remove offset=-2,-12 mgr=true after=true
+line left=246 right=0 both=246 delta=35
+float x=117 y=170 ax=143 ay=188 mgr=true
+float x=0 y=214 ax=26 ay=232 mgr=true
+op ax=39 ay=79
+op ax=39 ay=126
+op ax=39 ay=188
+op ax=39 ay=249
+op ax=181 ay=146
+op ax=156 ay=205
+loc ax=39 ay=79
+loc ax=39 ay=126
+loc ax=181 ay=146
+loc ax=39 ay=188
+loc ax=156 ay=205
+loc ax=39 ay=249
+run 1
+float x=126 y=0 ax=160 ay=37 mgr=true
+remove offset=0,0 mgr=true after=true
+float x=0 y=0 ax=34 ay=37 mgr=true
+translate BlockFormattingContext: (-1,-5)
+float x=120 y=38 ax=155 ay=80 mgr=true
+float x=-16 y=92 ax=19 ay=134 mgr=true
+translate BlockFormattingContext: (-13,-14)
+float x=145 y=130 ax=192 ay=181 mgr=true
+line left=228 right=0 both=228 delta=43
+float x=0 y=141 ax=47 ay=192 mgr=true
+float x=119 y=194 ax=166 ay=245 mgr=true
+translate BlockFormattingContext: (-11,-11)
+line left=230 right=0 both=230 delta=37
+line left=227 right=92 both=319 delta=76
+float x=0 y=234 ax=45 ay=282 mgr=true
+translate BlockFormattingContext: (-24,-9)
+remove offset=-13,-14 mgr=true after=true
+float x=0 y=267 ax=58 ay=313 mgr=true
+float x=107 y=277 ax=165 ay=323 mgr=true
+float x=77 y=277 ax=135 ay=323 mgr=true
+float x=119 y=328 ax=177 ay=374 mgr=true
+float x=0 y=328 ax=58 ay=374 mgr=true
+translate BlockFormattingContext: (-22,-12)
+float x=0 y=383 ax=56 ay=432 mgr=true
+line left=0 right=188 both=188 delta=61
+line left=0 right=0 both=0 delta=0
+float x=227 y=383 ax=283 ay=432 mgr=true
+op ax=47 ay=54
+op ax=60 ay=209
+op ax=58 ay=299
+op ax=71 ay=330
+op ax=71 ay=391
+op ax=69 ay=449
+op ax=168 ay=97
+op ax=32 ay=151
+op ax=179 ay=262
+op ax=178 ay=340
+op ax=148 ay=340
+op ax=190 ay=391
+op ax=296 ay=449
+loc ax=47 ay=54
+loc ax=168 ay=97
+loc ax=32 ay=151
+loc ax=60 ay=209
+loc ax=179 ay=262
+loc ax=58 ay=299
+loc ax=71 ay=330
+loc ax=178 ay=340
+loc ax=148 ay=340
+loc ax=190 ay=391
+loc ax=71 ay=391
+loc ax=69 ay=449
+loc ax=296 ay=449
+run 2
+line left=0 right=0 both=0 delta=0
+line left=0 right=0 both=0 delta=0
+float x=0 y=8 ax=36 ay=18 mgr=true
+translate BlockFormattingContext: (5,5)
+remove offset=0,0 mgr=true after=true
+float x=0 y=8 ax=31 ay=13 mgr=true
+float x=0 y=59 ax=31 ay=64 mgr=true
+line left=309 right=0 both=309 delta=46
+float x=0 y=95 ax=31 ay=100 mgr=true
+float x=257 y=95 ax=288 ay=100 mgr=true
+float x=0 y=128 ax=31 ay=133 mgr=true
+float x=0 y=149 ax=31 ay=154 mgr=true
+line left=307 right=0 both=307 delta=27
+float x=200 y=172 ax=231 ay=177 mgr=true
+line left=303 right=0 both=303 delta=20
+remove offset=5,5 mgr=true after=true
+line left=396 right=0 both=396 delta=27
+line left=397 right=0 both=397 delta=24
+float x=0 y=172 ax=31 ay=177 mgr=true
+float x=171 y=172 ax=202 ay=177 mgr=true
+clear y=183 clearDelta=152
+clear y=184 clearDelta=28
+translate BlockFormattingContext: (-8,8)
+float x=0 y=208 ax=44 ay=210 mgr=true
+float x=0 y=208 ax=44 ay=210 mgr=true
+float x=311 y=220 ax=355 ay=222 mgr=true
+float x=0 y=220 ax=44 ay=222 mgr=true
+clear y=208 clearDelta=42
+float x=0 y=231 ax=44 ay=233 mgr=true
+float x=122 y=287 ax=166 ay=289 mgr=true
+translate BlockFormattingContext: (-7,0)
+line left=265 right=0 both=265 delta=58
+op ax=44 ay=30
+op ax=44 ay=81
+op ax=44 ay=150
+op ax=44 ay=171
+op ax=44 ay=194
+op ax=215 ay=194
+op ax=57 ay=227
+op ax=57 ay=227
+op ax=57 ay=239
+op ax=57 ay=250
+op ax=301 ay=117
+op ax=244 ay=194
+op ax=368 ay=239
+op ax=179 ay=306
+loc ax=44 ay=30
+loc ax=44 ay=81
+loc ax=301 ay=117
+loc ax=44 ay=150
+loc ax=44 ay=171
+loc ax=244 ay=194
+loc ax=44 ay=194
+loc ax=215 ay=194
+loc ax=57 ay=227
+loc ax=57 ay=227
+loc ax=368 ay=239
+loc ax=57 ay=239
+loc ax=57 ay=250
+loc ax=179 ay=306
+run 3
+float x=0 y=0 ax=46 ay=41 mgr=true
+float x=105 y=0 ax=151 ay=41 mgr=true
+line left=203 right=0 both=203 delta=0
+float x=0 y=33 ax=46 ay=74 mgr=true
+float x=0 y=90 ax=46 ay=131 mgr=true
+float x=128 y=140 ax=174 ay=181 mgr=true
+float x=199 y=187 ax=245 ay=228 mgr=true
+float x=0 y=187 ax=46 ay=228 mgr=true
+float x=168 y=187 ax=214 ay=228 mgr=true
+float x=312 y=221 ax=358 ay=262 mgr=true
+op ax=59 ay=58
+op ax=164 ay=58
+op ax=59 ay=91
+op ax=59 ay=148
+op ax=59 ay=245
+op ax=187 ay=198
+op ax=258 ay=245
+op ax=227 ay=245
+op ax=371 ay=279
+loc ax=59 ay=58
+loc ax=164 ay=58
+loc ax=59 ay=91
+loc ax=59 ay=148
+loc ax=187 ay=198
+loc ax=258 ay=245
+loc ax=59 ay=245
+loc ax=227 ay=245
+loc ax=371 ay=279
+run 4
+translate BlockFormattingContext: (-9,1)
+clear y=0 clearDelta=0
+float x=0 y=21 ax=58 ay=42 mgr=true
+remove offset=-9,1 mgr=true after=true
+clear y=21 clearDelta=-21
+clear y=58 clearDelta=-58
+clear y=93 clearDelta=-93
+translate BlockFormattingContext: (-14,-7)
+line left=0 right=0 both=0 delta=0
+line left=0 right=0 both=0 delta=0
+float x=0 y=105 ax=63 ay=134 mgr=true
+translate BlockFormattingContext: (-25,-21)
+float x=0 y=120 ax=74 ay=163 mgr=true
+float x=0 y=149 ax=74 ay=192 mgr=true
+float x=149 y=191 ax=223 ay=234 mgr=true
+op ax=76 ay=151
+op ax=87 ay=180
+op ax=87 ay=209
+op ax=236 ay=251
+loc ax=76 ay=151
+loc ax=87 ay=180
+loc ax=87 ay=209
+loc ax=236 ay=251
+run 5
+float x=149 y=0 ax=158 ay=45 mgr=true
+float x=22 y=29 ax=31 ay=74 mgr=true
+clear y=48 clearDelta=51
+float x=0 y=51 ax=9 ay=96 mgr=true
+line left=108 right=198 both=306 delta=49
+float x=73 y=98 ax=82 ay=143 mgr=true
+line left=100 right=0 both=100 delta=31
+translate BlockFormattingContext: (-5,-8)
+float x=0 y=113 ax=14 ay=166 mgr=true
+line left=97 right=187 both=284 delta=45
+clear y=169 clearDelta=85
+float x=0 y=179 ax=14 ay=232 mgr=true
+float x=112 y=179 ax=126 ay=232 mgr=true
+float x=56 y=212 ax=70 ay=265 mgr=true
+line left=47 right=26 both=73 delta=34
+line left=50 right=0 both=50 delta=3
+float x=0 y=241 ax=14 ay=294 mgr=true
+translate BlockFormattingContext: (-1,-15)
+float x=0 y=288 ax=10 ay=348 mgr=true
+line left=0 right=176 both=176 delta=41
+float x=0 y=302 ax=10 ay=362 mgr=true
+translate BlockFormattingContext: (-6,-21)
+remove offset=0,0 mgr=true after=true
+remove offset=0,0 mgr=true after=true
+op ax=22 ay=113
+op ax=27 ay=183
+op ax=27 ay=249
+op ax=27 ay=311
+op ax=23 ay=365
+op ax=23 ay=379
+op ax=44 ay=91
+op ax=139 ay=249
+op ax=83 ay=282
+loc ax=44 ay=91
+loc ax=22 ay=113
+loc ax=27 ay=183
+loc ax=27 ay=249
+loc ax=139 ay=249
+loc ax=83 ay=282
+loc ax=27 ay=311
+loc ax=23 ay=365
+loc ax=23 ay=379
+run 6
+line left=0 right=0 both=0 delta=0
+clear y=3 clearDelta=-3
+clear y=16 clearDelta=-16
+float x=32 y=44 ax=43 ay=70 mgr=true
+float x=0 y=68 ax=11 ay=94 mgr=true
+clear y=90 clearDelta=49
+float x=254 y=129 ax=265 ay=155 mgr=true
+line left=0 right=0 both=0 delta=0
+float x=103 y=140 ax=114 ay=166 mgr=true
+line left=0 right=138 both=138 delta=1
+translate BlockFormattingContext: (-12,0)
+float x=179 y=161 ax=202 ay=187 mgr=true
+float x=0 y=195 ax=23 ay=221 mgr=true
+translate BlockFormattingContext: (-11,-10)
+remove offset=-12,0 mgr=true after=true
+remove offset=0,0 mgr=true after=true
+line left=0 right=0 both=0 delta=0
+float x=14 y=230 ax=36 ay=266 mgr=true
+line left=0 right=0 both=0 delta=0
+float x=47 y=286 ax=69 ay=322 mgr=true
+clear y=342 clearDelta=161
+remove offset=-12,0 mgr=true after=true
+float x=0 y=365 ax=22 ay=401 mgr=true
+line left=158 right=0 both=158 delta=25
+float x=12 y=380 ax=34 ay=416 mgr=true
+translate BlockFormattingContext: (-18,-9)
+clear y=419 clearDelta=64
+line left=0 right=0 both=0 delta=0
+remove offset=0,0 mgr=true after=true
+float x=0 y=450 ax=29 ay=485 mgr=true
+translate BlockFormattingContext: (-23,-16)
+op ax=35 ay=418
+op ax=42 ay=502
+op ax=56 ay=87
+op ax=127 ay=183
+op ax=49 ay=283
+op ax=82 ay=339
+op ax=47 ay=433
+loc ax=56 ay=87
+loc ax=127 ay=183
+loc ax=49 ay=283
+loc ax=82 ay=339
+loc ax=35 ay=418
+loc ax=47 ay=433
+loc ax=42 ay=502
+run 7
+float x=0 y=0 ax=21 ay=49 mgr=true
+float x=253 y=0 ax=274 ay=49 mgr=true
+translate BlockFormattingContext: (3,-7)
+line left=80 right=0 both=80 delta=18
+float x=136 y=37 ax=154 ay=93 mgr=true
+float x=127 y=96 ax=145 ay=152 mgr=true
+line left=0 right=148 both=148 delta=72
+line left=0 right=0 both=0 delta=0
+op ax=34 ay=66
+op ax=287 ay=66
+op ax=167 ay=110
+op ax=158 ay=169
+loc ax=34 ay=66
+loc ax=287 ay=66
+loc ax=167 ay=110
+loc ax=158 ay=169
+run 8
+line left=0 right=0 both=0 delta=0
+line left=0 right=0 both=0 delta=0
+float x=0 y=30 ax=23 ay=60 mgr=true
+line left=61 right=0 both=61 delta=54
+float x=0 y=84 ax=23 ay=114 mgr=true
+float x=0 y=125 ax=23 ay=155 mgr=true
+clear y=162 clearDelta=118
+remove offset=0,0 mgr=true after=true
+float x=61 y=169 ax=84 ay=199 mgr=true
+clear y=199 clearDelta=33
+float x=22 y=209 ax=45 ay=239 mgr=true
+float x=165 y=222 ax=188 ay=252 mgr=true
+float x=12 y=230 ax=35 ay=260 mgr=true
+float x=0 y=276 ax=23 ay=306 mgr=true
+line left=0 right=70 both=70 delta=6
+op ax=36 ay=77
+op ax=36 ay=131
+op ax=36 ay=323
+op ax=97 ay=216
+op ax=58 ay=256
+op ax=201 ay=269
+op ax=48 ay=277
+loc ax=36 ay=77
+loc ax=36 ay=131
+loc ax=97 ay=216
+loc ax=58 ay=256
+loc ax=201 ay=269
+loc ax=48 ay=277
+loc ax=36 ay=323
+run 9
+float x=256 y=0 ax=289 ay=11 mgr=true
+line left=0 right=0 both=0 delta=0
+float x=0 y=56 ax=33 ay=67 mgr=true
+float x=153 y=114 ax=186 ay=125 mgr=true
+float x=184 y=115 ax=217 ay=126 mgr=true
+float x=0 y=115 ax=33 ay=126 mgr=true
+remove offset=0,0 mgr=true after=true
+float x=260 y=115 ax=293 ay=126 mgr=true
+remove offset=0,0 mgr=true after=true
+line left=0 right=57 both=57 delta=30
+line left=0 right=8 both=8 delta=13
+float x=73 y=125 ax=106 ay=136 mgr=true
+float x=40 y=168 ax=73 ay=179 mgr=true
+float x=0 y=189 ax=33 ay=200 mgr=true
+float x=81 y=241 ax=114 ay=252 mgr=true
+line left=333 right=0 both=333 delta=62
+float x=0 y=257 ax=33 ay=268 mgr=true
+float x=98 y=310 ax=131 ay=321 mgr=true
+float x=0 y=355 ax=33 ay=366 mgr=true
+line left=329 right=0 both=329 delta=55
+float x=130 y=355 ax=163 ay=366 mgr=true
+op ax=46 ay=84
+op ax=46 ay=143
+op ax=46 ay=217
+op ax=127 ay=269
+op ax=46 ay=285
+op ax=46 ay=383
+op ax=176 ay=383
+op ax=302 ay=28
+op ax=199 ay=142
+op ax=119 ay=153
+op ax=86 ay=196
+op ax=144 ay=338
+loc ax=302 ay=28
+loc ax=46 ay=84
+loc ax=199 ay=142
+loc ax=46 ay=143
+loc ax=119 ay=153
+loc ax=86 ay=196
+loc ax=46 ay=217
+loc ax=127 ay=269
+loc ax=46 ay=285
+loc ax=144 ay=338
+loc ax=46 ay=383
+loc ax=176 ay=383
+run 10
+float x=133 y=0 ax=168 ay=34 mgr=true
+float x=0 y=40 ax=35 ay=74 mgr=true
+float x=150 y=90 ax=185 ay=124 mgr=true
+line left=0 right=0 both=0 delta=0
+line left=0 right=41 both=41 delta=29
+float x=0 y=90 ax=35 ay=124 mgr=true
+translate BlockFormattingContext: (-8,3)
+float x=0 y=113 ax=43 ay=144 mgr=true
+float x=0 y=133 ax=43 ay=164 mgr=true
+float x=68 y=155 ax=111 ay=186 mgr=true
+float x=122 y=188 ax=165 ay=219 mgr=true
+line left=0 right=141 both=141 delta=13
+translate BlockFormattingContext: (-13,-3)
+line left=0 right=20 both=20 delta=6
+remove offset=-8,3 mgr=true after=true
+float x=47 y=183 ax=95 ay=220 mgr=true
+clear y=42 clearDelta=177
+float x=0 y=216 ax=48 ay=253 mgr=true
+float x=150 y=216 ax=198 ay=253 mgr=true
+line left=229 right=0 both=229 delta=23
+remove offset=0,0 mgr=true after=true
+clear y=94 clearDelta=180
+float x=-20 y=271 ax=28 ay=308 mgr=true
+float x=0 y=297 ax=48 ay=334 mgr=true
+clear y=307 clearDelta=205
+float x=47 y=320 ax=95 ay=357 mgr=true
+float x=0 y=355 ax=48 ay=392 mgr=true
+remove offset=0,0 mgr=true after=true
+op ax=48 ay=141
+op ax=56 ay=161
+op ax=56 ay=181
+op ax=61 ay=270
+op ax=211 ay=270
+op ax=61 ay=351
+op ax=61 ay=409
+op ax=181 ay=51
+op ax=178 ay=236
+op ax=108 ay=237
+op ax=41 ay=325
+op ax=108 ay=374
+loc ax=181 ay=51
+loc ax=48 ay=141
+loc ax=56 ay=161
+loc ax=56 ay=181
+loc ax=178 ay=236
+loc ax=108 ay=237
+loc ax=61 ay=270
+loc ax=211 ay=270
+loc ax=41 ay=325
+loc ax=61 ay=351
+loc ax=108 ay=374
+loc ax=61 ay=409
+run 11
+float x=0 y=0 ax=37 ay=15 mgr=true
+float x=66 y=0 ax=103 ay=15 mgr=true
+line left=95 right=0 both=95 delta=23
+float x=57 y=47 ax=94 ay=62 mgr=true
+op ax=50 ay=32
+op ax=116 ay=32
+op ax=107 ay=79
+loc ax=50 ay=32
+loc ax=116 ay=32
+loc ax=107 ay=79
+run 12
+float x=0 y=0 ax=47 ay=46 mgr=true
+float x=128 y=36 ax=175 ay=82 mgr=true
+float x=23 y=39 ax=70 ay=85 mgr=true
+float x=0 y=78 ax=47 ay=124 mgr=true
+line left=256 right=0 both=256 delta=29
+float x=246 y=78 ax=293 ay=124 mgr=true
+float x=0 y=81 ax=47 ay=127 mgr=true
+float x=138 y=134 ax=185 ay=180 mgr=true
+float x=41 y=138 ax=88 ay=184 mgr=true
+line left=256 right=0 both=256 delta=23
+clear y=81 clearDelta=159
+float x=0 y=180 ax=47 ay=226 mgr=true
+op ax=60 ay=63
+op ax=60 ay=141
+op ax=60 ay=144
+op ax=60 ay=243
+op ax=188 ay=99
+op ax=83 ay=102
+op ax=306 ay=141
+op ax=198 ay=197
+op ax=101 ay=201
+loc ax=60 ay=63
+loc ax=188 ay=99
+loc ax=83 ay=102
+loc ax=60 ay=141
+loc ax=306 ay=141
+loc ax=60 ay=144
+loc ax=198 ay=197
+loc ax=101 ay=201
+loc ax=60 ay=243
+run 13
+clear y=0 clearDelta=0
+float x=0 y=9 ax=49 ay=28 mgr=true
+float x=0 y=37 ax=49 ay=56 mgr=true
+line left=169 right=0 both=169 delta=21
+remove offset=0,0 mgr=true after=true
+float x=136 y=62 ax=185 ay=81 mgr=true
+line left=0 right=0 both=0 delta=0
+float x=0 y=62 ax=49 ay=81 mgr=true
+float x=0 y=114 ax=49 ay=133 mgr=true
+float x=0 y=173 ax=49 ay=192 mgr=true
+float x=0 y=220 ax=49 ay=239 mgr=true
+float x=132 y=220 ax=181 ay=239 mgr=true
+float x=90 y=234 ax=139 ay=253 mgr=true
+clear y=222 clearDelta=267
+remove offset=0,0 mgr=true after=true
+translate BlockFormattingContext: (-11,5)
+line left=0 right=170 both=170 delta=35
+remove offset=0,0 mgr=true after=true
+clear y=249 clearDelta=40
+op ax=62 ay=73
+op ax=62 ay=98
+op ax=62 ay=150
+op ax=62 ay=209
+op ax=198 ay=98
+op ax=152 ay=270
+loc ax=62 ay=73
+loc ax=198 ay=98
+loc ax=62 ay=98
+loc ax=62 ay=150
+loc ax=62 ay=209
+loc ax=152 ay=270
+run 14
+float x=-14 y=0 ax=-5 ay=0 mgr=true
+line left=0 right=144 both=144 delta=32
+translate BlockFormattingContext: (-13,5)
+clear y=14 clearDelta=18
+remove offset=0,0 mgr=true after=true
+translate BlockFormattingContext: (-17,-4)
+clear y=31 clearDelta=-31
+clear y=36 clearDelta=-36
+line left=0 right=0 both=0 delta=0
+line left=0 right=0 both=0 delta=0
+line left=0 right=0 both=0 delta=0
+float x=143 y=86 ax=169 ay=90 mgr=true
+line left=0 right=0 both=0 delta=0
+translate BlockFormattingContext: (-15,-16)
+float x=-14 y=122 ax=10 ay=138 mgr=true
+line left=0 right=35 both=35 delta=30
+float x=7 y=122 ax=31 ay=138 mgr=true
+line left=0 right=116 both=116 delta=70
+float x=74 y=165 ax=98 ay=181 mgr=true
+line left=0 right=203 both=203 delta=59
+float x=95 y=194 ax=119 ay=210 mgr=true
+float x=8 y=194 ax=32 ay=210 mgr=true
+line left=0 right=205 both=205 delta=53
+translate BlockFormattingContext: (-13,-28)
+line left=0 right=195 both=195 delta=59
+line left=0 right=119 both=119 delta=57
+clear y=232 clearDelta=107
+line left=0 right=0 both=0 delta=0
+line left=0 right=0 both=0 delta=0
+float x=0 y=285 ax=22 ay=313 mgr=true
+remove offset=-15,-16 mgr=true after=true
+clear y=285 clearDelta=84
+float x=113 y=341 ax=135 ay=369 mgr=true
+float x=0 y=341 ax=22 ay=369 mgr=true
+op ax=35 ay=330
+op ax=35 ay=386
+op ax=182 ay=107
+op ax=23 ay=155
+op ax=44 ay=155
+op ax=132 ay=227
+op ax=45 ay=227
+op ax=148 ay=386
+loc ax=182 ay=107
+loc ax=23 ay=155
+loc ax=44 ay=155
+loc ax=132 ay=227
+loc ax=45 ay=227
+loc ax=35 ay=330
+loc ax=148 ay=386
+loc ax=35 ay=386
+run 15
+clear y=0 clearDelta=0
+float x=0 y=17 ax=11 ay=40 mgr=true
+float x=-8 y=20 ax=3 ay=43 mgr=true
+float x=0 y=42 ax=11 ay=65 mgr=true
+line left=56 right=0 both=56 delta=3
+translate BlockFormattingContext: (2,0)
+float x=110 y=42 ax=119 ay=65 mgr=true
+float x=4 y=65 ax=13 ay=88 mgr=true
+float x=4 y=81 ax=13 ay=104 mgr=true
+translate BlockFormattingContext: (-10,-4)
+translate BlockFormattingContext: (-22,-15)
+op ax=24 ay=57
+op ax=24 ay=82
+op ax=16 ay=60
+op ax=132 ay=82
+op ax=26 ay=105
+op ax=26 ay=121
+loc ax=24 ay=57
+loc ax=16 ay=60
+loc ax=24 ay=82
+loc ax=132 ay=82
+loc ax=26 ay=105
+loc ax=26 ay=121
+run 16
+float x=137 y=0 ax=158 ay=4 mgr=true
+clear y=0 clearDelta=28
+clear y=25 clearDelta=5
+float x=156 y=38 ax=177 ay=42 mgr=true
+remove offset=0,0 mgr=true after=true
+translate BlockFormattingContext: (4,-6)
+float x=0 y=38 ax=17 ay=48 mgr=true
+float x=48 y=86 ax=65 ay=96 mgr=true
+line left=96 right=0 both=96 delta=54
+translate BlockFormattingContext: (-5,-17)
+line left=84 right=0 both=84 delta=50
+float x=0 y=131 ax=26 ay=152 mgr=true
+float x=226 y=131 ax=252 ay=152 mgr=true
+float x=72 y=131 ax=98 ay=152 mgr=true
+translate BlockFormattingContext: (-6,-24)
+float x=0 y=165 ax=27 ay=193 mgr=true
+float x=24 y=165 ax=51 ay=193 mgr=true
+translate BlockFormattingContext: (-5,-28)
+op ax=30 ay=65
+op ax=39 ay=169
+op ax=40 ay=210
+op ax=64 ay=210
+op ax=171 ay=21
+op ax=78 ay=113
+op ax=265 ay=169
+op ax=111 ay=169
+loc ax=171 ay=21
+loc ax=30 ay=65
+loc ax=78 ay=113
+loc ax=39 ay=169
+loc ax=265 ay=169
+loc ax=111 ay=169
+loc ax=40 ay=210
+loc ax=64 ay=210
+run 17
+line left=0 right=0 both=0 delta=0
+float x=0 y=23 ax=23 ay=58 mgr=true
+float x=33 y=23 ax=56 ay=58 mgr=true
+float x=146 y=57 ax=169 ay=92 mgr=true
+clear y=82 clearDelta=62
+float x=106 y=110 ax=129 ay=145 mgr=true
+line left=0 right=76 both=76 delta=8
+float x=101 y=130 ax=124 ay=165 mgr=true
+line left=0 right=49 both=49 delta=49
+remove offset=0,0 mgr=true after=true
+line left=0 right=0 both=0 delta=0
+float x=0 y=186 ax=23 ay=221 mgr=true
+float x=84 y=232 ax=107 ay=267 mgr=true
+line left=0 right=7 both=7 delta=10
+float x=59 y=232 ax=82 ay=267 mgr=true
+float x=89 y=279 ax=112 ay=314 mgr=true
+remove offset=0,0 mgr=true after=true
+clear y=296 clearDelta=129
+float x=0 y=312 ax=23 ay=347 mgr=true
+line left=182 right=0 both=182 delta=23
+float x=73 y=335 ax=96 ay=370 mgr=true
+float x=13 y=366 ax=36 ay=401 mgr=true
+line left=187 right=89 both=276 delta=32
+float x=0 y=410 ax=23 ay=445 mgr=true
+line left=0 right=52 both=52 delta=52
+op ax=36 ay=75
+op ax=69 ay=75
+op ax=36 ay=238
+op ax=36 ay=364
+op ax=36 ay=462
+op ax=142 ay=162
+op ax=120 ay=284
+op ax=95 ay=284
+op ax=125 ay=331
+op ax=109 ay=387
+op ax=49 ay=418
+loc ax=36 ay=75
+loc ax=69 ay=75
+loc ax=142 ay=162
+loc ax=36 ay=238
+loc ax=120 ay=284
+loc ax=95 ay=284
+loc ax=125 ay=331
+loc ax=36 ay=364
+loc ax=109 ay=387
+loc ax=49 ay=418
+loc ax=36 ay=462
+run 18
+float x=0 y=0 ax=33 ay=8 mgr=true
+translate BlockFormattingContext: (-11,5)
+remove offset=0,0 mgr=true after=true
+clear y=0 clearDelta=0
+float x=-21 y=17 ax=23 ay=20 mgr=true
+line left=0 right=119 both=119 delta=42
+float x=53 y=64 ax=97 ay=67 mgr=true
+translate BlockFormattingContext: (-19,2)
+line left=0 right=88 both=88 delta=39
+float x=30 y=74 ax=82 ay=80 mgr=true
+float x=10 y=130 ax=62 ay=136 mgr=true
+remove offset=-19,2 mgr=true after=true
+float x=-15 y=130 ax=37 ay=136 mgr=true
+translate BlockFormattingContext: (-28,-11)
+line left=0 right=89 both=89 delta=34
+float x=104 y=126 ax=165 ay=145 mgr=true
+remove offset=-28,-11 mgr=true after=true
+float x=0 y=126 ax=61 ay=145 mgr=true
+float x=0 y=130 ax=61 ay=149 mgr=true
+line left=0 right=129 both=129 delta=23
+line left=0 right=0 both=0 delta=0
+float x=0 y=152 ax=61 ay=171 mgr=true
+clear y=123 clearDelta=111
+float x=0 y=180 ax=61 ay=199 mgr=true
+float x=-19 y=191 ax=42 ay=210 mgr=true
+float x=0 y=217 ax=61 ay=236 mgr=true
+float x=0 y=220 ax=61 ay=239 mgr=true
+line left=103 right=0 both=103 delta=33
+float x=38 y=240 ax=99 ay=259 mgr=true
+remove offset=-19,2 mgr=true after=true
+translate BlockFormattingContext: (-27,-19)
+op ax=74 ay=162
+op ax=74 ay=166
+op ax=74 ay=188
+op ax=74 ay=216
+op ax=74 ay=253
+op ax=74 ay=256
+op ax=36 ay=37
+op ax=110 ay=84
+op ax=95 ay=97
+op ax=55 ay=227
+op ax=112 ay=276
+loc ax=36 ay=37
+loc ax=110 ay=84
+loc ax=95 ay=97
+loc ax=74 ay=162
+loc ax=74 ay=166
+loc ax=74 ay=188
+loc ax=74 ay=216
+loc ax=55 ay=227
+loc ax=74 ay=253
+loc ax=74 ay=256
+loc ax=112 ay=276
+run 19
+line left=0 right=0 both=0 delta=0
+float x=0 y=0 ax=35 ay=39 mgr=true
+float x=109 y=0 ax=144 ay=39 mgr=true
+float x=0 y=39 ax=35 ay=78 mgr=true
+line left=23 right=0 both=23 delta=39
+line left=23 right=0 both=23 delta=18
+float x=0 y=52 ax=35 ay=91 mgr=true
+float x=121 y=102 ax=156 ay=141 mgr=true
+op ax=48 ay=56
+op ax=48 ay=95
+op ax=48 ay=108
+op ax=157 ay=56
+op ax=169 ay=158
+loc ax=48 ay=56
+loc ax=157 ay=56
+loc ax=48 ay=95
+loc ax=48 ay=108
+loc ax=169 ay=158
+run 20
+float x=136 y=0 ax=181 ay=12 mgr=true
+remove offset=0,0 mgr=true after=true
+clear y=0 clearDelta=0
+float x=101 y=29 ax=146 ay=41 mgr=true
+remove offset=0,0 mgr=true after=true
+line left=0 right=0 both=0 delta=0
+float x=108 y=41 ax=153 ay=53 mgr=true
+float x=28 y=41 ax=73 ay=53 mgr=true
+float x=0 y=84 ax=45 ay=96 mgr=true
+float x=127 y=130 ax=172 ay=142 mgr=true
+float x=0 y=130 ax=45 ay=142 mgr=true
+line left=0 right=0 both=0 delta=0
+float x=23 y=161 ax=68 ay=173 mgr=true
+float x=86 y=172 ax=131 ay=184 mgr=true
+float x=98 y=218 ax=143 ay=230 mgr=true
+op ax=58 ay=113
+op ax=58 ay=159
+op ax=166 ay=70
+op ax=86 ay=70
+op ax=185 ay=159
+op ax=81 ay=190
+op ax=144 ay=201
+op ax=156 ay=247
+loc ax=166 ay=70
+loc ax=86 ay=70
+loc ax=58 ay=113
+loc ax=185 ay=159
+loc ax=58 ay=159
+loc ax=81 ay=190
+loc ax=144 ay=201
+loc ax=156 ay=247
+run 21
+line left=0 right=0 both=0 delta=0
+float x=-5 y=7 ax=42 ay=50 mgr=true
+float x=0 y=14 ax=47 ay=57 mgr=true
+float x=50 y=36 ax=97 ay=79 mgr=true
+line left=54 right=22 both=76 delta=29
+float x=0 y=36 ax=47 ay=79 mgr=true
+float x=0 y=72 ax=47 ay=115 mgr=true
+translate BlockFormattingContext: (-11,-8)
+float x=95 y=64 ax=153 ay=115 mgr=true
+translate BlockFormattingContext: (-17,-14)
+float x=0 y=106 ax=64 ay=163 mgr=true
+float x=0 y=164 ax=64 ay=221 mgr=true
+float x=0 y=204 ax=64 ay=261 mgr=true
+float x=82 y=251 ax=146 ay=308 mgr=true
+line left=30 right=94 both=124 delta=43
+translate BlockFormattingContext: (-22,-23)
+float x=0 y=242 ax=69 ay=308 mgr=true
+remove offset=-17,-14 mgr=true after=true
+float x=0 y=296 ax=69 ay=362 mgr=true
+float x=66 y=296 ax=135 ay=362 mgr=true
+remove offset=0,0 mgr=true after=true
+translate BlockFormattingContext: (-22,-21)
+op ax=60 ay=96
+op ax=60 ay=132
+op ax=77 ay=180
+op ax=77 ay=278
+op ax=82 ay=325
+op ax=82 ay=379
+op ax=55 ay=67
+op ax=110 ay=96
+op ax=166 ay=132
+op ax=159 ay=325
+op ax=148 ay=379
+loc ax=55 ay=67
+loc ax=110 ay=96
+loc ax=60 ay=96
+loc ax=60 ay=132
+loc ax=166 ay=132
+loc ax=77 ay=180
+loc ax=77 ay=278
+loc ax=159 ay=325
+loc ax=82 ay=325
+loc ax=82 ay=379
+loc ax=148 ay=379
+run 22
+translate BlockFormattingContext: (1,-9)
+float x=332 y=0 ax=338 ay=33 mgr=true
+line left=0 right=0 both=0 delta=0
+float x=0 y=19 ax=6 ay=52 mgr=true
+line left=177 right=107 both=284 delta=65
+translate BlockFormattingContext: (-10,-21)
+float x=228 y=40 ax=245 ay=85 mgr=true
+float x=134 y=63 ax=151 ay=108 mgr=true
+line left=172 right=213 both=385 delta=44
+float x=0 y=78 ax=17 ay=123 mgr=true
+translate BlockFormattingContext: (-7,-35)
+line left=178 right=0 both=178 delta=40
+remove offset=-10,-21 mgr=true after=true
+float x=0 y=64 ax=14 ay=123 mgr=true
+float x=333 y=64 ax=347 ay=123 mgr=true
+float x=383 y=119 ax=397 ay=178 mgr=true
+float x=0 y=119 ax=14 ay=178 mgr=true
+line left=280 right=96 both=376 delta=89
+translate BlockFormattingContext: (-18,-44)
+remove offset=-7,-35 mgr=true after=true
+float x=196 y=164 ax=221 ay=232 mgr=true
+float x=0 y=164 ax=25 ay=232 mgr=true
+remove offset=-7,-35 mgr=true after=true
+float x=159 y=164 ax=184 ay=232 mgr=true
+float x=65 y=187 ax=90 ay=255 mgr=true
+clear y=212 clearDelta=218
+remove offset=-18,-44 mgr=true after=true
+float x=0 y=250 ax=25 ay=318 mgr=true
+float x=182 y=293 ax=207 ay=361 mgr=true
+op ax=19 ay=69
+op ax=27 ay=195
+op ax=38 ay=249
+op ax=38 ay=335
+op ax=351 ay=50
+op ax=258 ay=102
+op ax=164 ay=125
+op ax=360 ay=140
+op ax=234 ay=249
+op ax=197 ay=249
+op ax=220 ay=378
+loc ax=351 ay=50
+loc ax=19 ay=69
+loc ax=258 ay=102
+loc ax=164 ay=125
+loc ax=360 ay=140
+loc ax=27 ay=195
+loc ax=234 ay=249
+loc ax=38 ay=249
+loc ax=197 ay=249
+loc ax=38 ay=335
+loc ax=220 ay=378
+run 23
+float x=0 y=0 ax=9 ay=47 mgr=true
+clear y=32 clearDelta=35
+line left=0 right=0 both=0 delta=0
+clear y=43 clearDelta=-8
+float x=0 y=67 ax=9 ay=114 mgr=true
+translate BlockFormattingContext: (-13,-6)
+op ax=22 ay=64
+op ax=22 ay=131
+loc ax=22 ay=64
+loc ax=22 ay=131
+run 24
+clear y=0 clearDelta=0
+clear y=30 clearDelta=-30
+float x=76 y=32 ax=95 ay=60 mgr=true
+line left=0 right=0 both=0 delta=0
+float x=-2 y=88 ax=17 ay=116 mgr=true
+float x=4 y=129 ax=23 ay=157 mgr=true
+translate BlockFormattingContext: (5,-12)
+float x=-11 y=148 ax=3 ay=188 mgr=true
+line left=0 right=50 both=50 delta=39
+float x=0 y=148 ax=14 ay=188 mgr=true
+remove offset=0,0 mgr=true after=true
+float x=0 y=166 ax=14 ay=206 mgr=true
+float x=-5 y=183 ax=9 ay=223 mgr=true
+op ax=27 ay=223
+op ax=108 ay=77
+op ax=30 ay=133
+op ax=16 ay=205
+op ax=27 ay=205
+op ax=22 ay=240
+loc ax=108 ay=77
+loc ax=30 ay=133
+loc ax=16 ay=205
+loc ax=27 ay=205
+loc ax=27 ay=223
+loc ax=22 ay=240
+run 25
+float x=180 y=0 ax=201 ay=9 mgr=true
+float x=0 y=31 ax=21 ay=40 mgr=true
+line left=0 right=0 both=0 delta=0
+float x=0 y=79 ax=21 ay=88 mgr=true
+translate BlockFormattingContext: (-13,-6)
+float x=0 y=82 ax=34 ay=97 mgr=true
+float x=-2 y=108 ax=32 ay=123 mgr=true
+clear y=159 clearDelta=145
+float x=114 y=175 ax=148 ay=190 mgr=true
+line left=0 right=0 both=0 delta=0
+line left=0 right=0 both=0 delta=0
+translate BlockFormattingContext: (-9,-6)
+translate BlockFormattingContext: (-12,-11)
+clear y=195 clearDelta=-14
+float x=351 y=201 ax=384 ay=221 mgr=true
+clear y=231 clearDelta=44
+line left=0 right=0 both=0 delta=0
+float x=421 y=262 ax=454 ay=282 mgr=true
+remove offset=0,0 mgr=true after=true
+line left=0 right=0 both=0 delta=0
+op ax=34 ay=105
+op ax=47 ay=114
+op ax=214 ay=26
+op ax=45 ay=140
+op ax=161 ay=207
+op ax=397 ay=238
+op ax=467 ay=299
+loc ax=214 ay=26
+loc ax=34 ay=105
+loc ax=47 ay=114
+loc ax=45 ay=140
+loc ax=161 ay=207
+loc ax=397 ay=238
+loc ax=467 ay=299
+run 26
+line left=0 right=0 both=0 delta=0
+float x=0 y=20 ax=31 ay=52 mgr=true
+float x=20 y=66 ax=51 ay=98 mgr=true
+translate BlockFormattingContext: (-9,-6)
+clear y=20 clearDelta=84
+float x=0 y=98 ax=40 ay=136 mgr=true
+line left=108 right=0 both=108 delta=40
+clear y=95 clearDelta=75
+line left=69 right=0 both=69 delta=4
+line left=0 right=0 both=0 delta=0
+float x=138 y=142 ax=178 ay=180 mgr=true
+float x=0 y=142 ax=40 ay=180 mgr=true
+float x=133 y=178 ax=173 ay=216 mgr=true
+line left=53 right=52 both=105 delta=62
+translate BlockFormattingContext: (-17,-12)
+line left=45 right=0 both=45 delta=53
+float x=53 y=192 ax=101 ay=236 mgr=true
+float x=149 y=192 ax=197 ay=236 mgr=true
+float x=0 y=245 ax=48 ay=289 mgr=true
+remove offset=-17,-12 mgr=true after=true
+float x=0 y=245 ax=48 ay=289 mgr=true
+float x=19 y=300 ax=67 ay=344 mgr=true
+remove offset=-9,-6 mgr=true after=true
+line left=44 right=70 both=114 delta=36
+line left=46 right=0 both=46 delta=34
+float x=104 y=309 ax=152 ay=353 mgr=true
+op ax=44 ay=69
+op ax=53 ay=153
+op ax=53 ay=197
+op ax=114 ay=253
+op ax=61 ay=306
+op ax=64 ay=115
+op ax=191 ay=197
+op ax=210 ay=253
+op ax=80 ay=361
+op ax=165 ay=370
+loc ax=44 ay=69
+loc ax=64 ay=115
+loc ax=53 ay=153
+loc ax=191 ay=197
+loc ax=53 ay=197
+loc ax=114 ay=253
+loc ax=210 ay=253
+loc ax=61 ay=306
+loc ax=80 ay=361
+loc ax=165 ay=370
+run 27
+float x=0 y=0 ax=33 ay=13 mgr=true
+float x=0 y=19 ax=33 ay=32 mgr=true
+clear y=28 clearDelta=28
+float x=1 y=55 ax=34 ay=68 mgr=true
+float x=-8 y=106 ax=25 ay=119 mgr=true
+float x=0 y=106 ax=33 ay=119 mgr=true
+remove offset=0,0 mgr=true after=true
+line left=0 right=33 both=33 delta=51
+line left=0 right=65 both=65 delta=44
+float x=68 y=162 ax=101 ay=175 mgr=true
+float x=0 y=209 ax=33 ay=222 mgr=true
+float x=0 y=247 ax=33 ay=260 mgr=true
+clear y=206 clearDelta=224
+line left=66 right=41 both=107 delta=34
+float x=0 y=295 ax=33 ay=308 mgr=true
+line left=66 right=0 both=66 delta=30
+clear y=212 clearDelta=113
+float x=-7 y=325 ax=26 ay=338 mgr=true
+float x=0 y=361 ax=33 ay=374 mgr=true
+float x=0 y=375 ax=33 ay=388 mgr=true
+float x=0 y=434 ax=33 ay=447 mgr=true
+float x=0 y=463 ax=33 ay=476 mgr=true
+float x=92 y=463 ax=125 ay=476 mgr=true
+float x=53 y=499 ax=86 ay=512 mgr=true
+float x=51 y=522 ax=84 ay=535 mgr=true
+clear y=505 clearDelta=296
+float x=4 y=546 ax=37 ay=559 mgr=true
+float x=0 y=556 ax=33 ay=569 mgr=true
+float x=44 y=613 ax=77 ay=626 mgr=true
+float x=36 y=663 ax=69 ay=676 mgr=true
+line left=0 right=91 both=91 delta=38
+remove offset=0,0 mgr=true after=true
+line left=0 right=82 both=82 delta=25
+op ax=46 ay=49
+op ax=46 ay=136
+op ax=46 ay=239
+op ax=46 ay=325
+op ax=46 ay=391
+op ax=46 ay=405
+op ax=46 ay=464
+op ax=46 ay=493
+op ax=47 ay=85
+op ax=38 ay=136
+op ax=114 ay=192
+op ax=39 ay=355
+op ax=138 ay=493
+op ax=99 ay=529
+op ax=97 ay=552
+op ax=50 ay=576
+op ax=46 ay=586
+op ax=90 ay=643
+op ax=82 ay=693
+loc ax=46 ay=49
+loc ax=47 ay=85
+loc ax=38 ay=136
+loc ax=46 ay=136
+loc ax=114 ay=192
+loc ax=46 ay=239
+loc ax=46 ay=325
+loc ax=39 ay=355
+loc ax=46 ay=391
+loc ax=46 ay=405
+loc ax=46 ay=464
+loc ax=46 ay=493
+loc ax=138 ay=493
+loc ax=99 ay=529
+loc ax=97 ay=552
+loc ax=50 ay=576
+loc ax=46 ay=586
+loc ax=90 ay=643
+loc ax=82 ay=693
+run 28
+line left=0 right=0 both=0 delta=0
+float x=323 y=1 ax=358 ay=37 mgr=true
+remove offset=0,0 mgr=true after=true
+clear y=1 clearDelta=-1
+float x=320 y=7 ax=355 ay=43 mgr=true
+float x=222 y=7 ax=257 ay=43 mgr=true
+float x=178 y=7 ax=213 ay=43 mgr=true
+float x=0 y=49 ax=35 ay=85 mgr=true
+float x=378 y=49 ax=413 ay=85 mgr=true
+op ax=48 ay=102
+op ax=368 ay=60
+op ax=270 ay=60
+op ax=226 ay=60
+op ax=426 ay=102
+loc ax=368 ay=60
+loc ax=270 ay=60
+loc ax=226 ay=60
+loc ax=48 ay=102
+loc ax=426 ay=102
+run 29
+float x=0 y=0 ax=45 ay=17 mgr=true
+float x=273 y=0 ax=318 ay=17 mgr=true
+translate BlockFormattingContext: (4,-13)
+remove offset=0,0 mgr=true after=true
+remove offset=0,0 mgr=true after=true
+float x=252 y=0 ax=293 ay=30 mgr=true
+float x=68 y=0 ax=109 ay=30 mgr=true
+float x=103 y=46 ax=144 ay=76 mgr=true
+line left=0 right=153 both=153 delta=59
+float x=112 y=58 ax=153 ay=88 mgr=true
+float x=41 y=67 ax=82 ay=97 mgr=true
+line left=0 right=11 both=11 delta=46
+float x=188 y=116 ax=229 ay=146 mgr=true
+clear y=25 clearDelta=131
+line left=0 right=365 both=365 delta=58
+remove offset=4,-13 mgr=true after=true
+float x=23 y=116 ax=64 ay=146 mgr=true
+op ax=306 ay=47
+op ax=122 ay=47
+op ax=166 ay=105
+op ax=95 ay=114
+op ax=242 ay=163
+op ax=77 ay=163
+loc ax=306 ay=47
+loc ax=122 ay=47
+loc ax=166 ay=105
+loc ax=95 ay=114
+loc ax=242 ay=163
+loc ax=77 ay=163
+run 30
+float x=0 y=0 ax=47 ay=47 mgr=true
+translate BlockFormattingContext: (-12,-7)
+float x=0 y=35 ax=59 ay=89 mgr=true
+float x=306 y=35 ax=365 ay=89 mgr=true
+translate BlockFormattingContext: (-16,-16)
+float x=30 y=27 ax=93 ay=90 mgr=true
+clear y=64 clearDelta=83
+float x=0 y=100 ax=63 ay=163 mgr=true
+float x=0 y=127 ax=63 ay=190 mgr=true
+float x=0 y=181 ax=63 ay=244 mgr=true
+float x=414 y=187 ax=477 ay=250 mgr=true
+float x=10 y=187 ax=73 ay=250 mgr=true
+float x=0 y=244 ax=63 ay=307 mgr=true
+line left=90 right=0 both=90 delta=43
+clear y=121 clearDelta=167
+float x=0 y=272 ax=63 ay=335 mgr=true
+float x=0 y=312 ax=63 ay=375 mgr=true
+float x=0 y=319 ax=63 ay=382 mgr=true
+float x=0 y=326 ax=63 ay=389 mgr=true
+clear y=353 clearDelta=246
+remove offset=-16,-16 mgr=true after=true
+float x=219 y=356 ax=282 ay=419 mgr=true
+float x=73 y=370 ax=136 ay=433 mgr=true
+float x=456 y=392 ax=519 ay=455 mgr=true
+op ax=60 ay=64
+op ax=72 ay=106
+op ax=76 ay=180
+op ax=76 ay=207
+op ax=76 ay=261
+op ax=76 ay=324
+op ax=76 ay=352
+op ax=76 ay=392
+op ax=76 ay=399
+op ax=76 ay=406
+op ax=378 ay=106
+op ax=490 ay=267
+op ax=86 ay=267
+op ax=295 ay=436
+op ax=149 ay=450
+op ax=532 ay=472
+loc ax=60 ay=64
+loc ax=72 ay=106
+loc ax=378 ay=106
+loc ax=76 ay=180
+loc ax=76 ay=207
+loc ax=76 ay=261
+loc ax=490 ay=267
+loc ax=86 ay=267
+loc ax=76 ay=324
+loc ax=76 ay=352
+loc ax=76 ay=392
+loc ax=76 ay=399
+loc ax=76 ay=406
+loc ax=295 ay=436
+loc ax=149 ay=450
+loc ax=532 ay=472
+run 31
+translate BlockFormattingContext: (-14,-14)
+float x=156 y=0 ax=177 ay=34 mgr=true
+line left=0 right=0 both=0 delta=0
+float x=0 y=26 ax=21 ay=60 mgr=true
+float x=232 y=64 ax=253 ay=98 mgr=true
+clear y=63 clearDelta=64
+float x=0 y=70 ax=21 ay=104 mgr=true
+float x=0 y=111 ax=21 ay=145 mgr=true
+float x=47 y=139 ax=68 ay=173 mgr=true
+float x=373 y=143 ax=394 ay=177 mgr=true
+float x=224 y=143 ax=245 ay=177 mgr=true
+float x=0 y=191 ax=21 ay=225 mgr=true
+clear y=201 clearDelta=148
+float x=341 y=204 ax=362 ay=238 mgr=true
+float x=80 y=204 ax=101 ay=238 mgr=true
+float x=0 y=244 ax=21 ay=278 mgr=true
+translate BlockFormattingContext: (-14,-17)
+float x=82 y=300 ax=103 ay=337 mgr=true
+float x=406 y=358 ax=427 ay=395 mgr=true
+float x=96 y=406 ax=117 ay=443 mgr=true
+remove offset=-14,-14 mgr=true after=true
+remove offset=-14,-17 mgr=true after=true
+line left=0 right=311 both=311 delta=47
+remove offset=-14,-17 mgr=true after=true
+translate BlockFormattingContext: (-22,-16)
+float x=0 y=359 ax=29 ay=395 mgr=true
+float x=279 y=359 ax=308 ay=395 mgr=true
+translate BlockFormattingContext: (-21,-21)
+remove offset=-14,-14 mgr=true after=true
+float x=401 y=401 ax=429 ay=442 mgr=true
+float x=66 y=436 ax=94 ay=477 mgr=true
+op ax=34 ay=77
+op ax=34 ay=162
+op ax=34 ay=242
+op ax=34 ay=295
+op ax=42 ay=412
+op ax=266 ay=115
+op ax=81 ay=190
+op ax=407 ay=194
+op ax=258 ay=194
+op ax=375 ay=255
+op ax=114 ay=255
+op ax=116 ay=354
+op ax=321 ay=412
+op ax=442 ay=459
+op ax=107 ay=494
+loc ax=34 ay=77
+loc ax=266 ay=115
+loc ax=34 ay=162
+loc ax=81 ay=190
+loc ax=407 ay=194
+loc ax=258 ay=194
+loc ax=34 ay=242
+loc ax=375 ay=255
+loc ax=114 ay=255
+loc ax=34 ay=295
+loc ax=116 ay=354
+loc ax=42 ay=412
+loc ax=321 ay=412
+loc ax=442 ay=459
+loc ax=107 ay=494
+run 32
+float x=59 y=0 ax=68 ay=1 mgr=true
+remove offset=0,0 mgr=true after=true
+translate BlockFormattingContext: (-2,-1)
+clear y=0 clearDelta=0
+line left=0 right=0 both=0 delta=0
+float x=201 y=6 ax=212 ay=8 mgr=true
+translate BlockFormattingContext: (-16,4)
+op ax=225 ay=25
+loc ax=225 ay=25
+run 33
+translate BlockFormattingContext: (-1,-10)
+float x=0 y=0 ax=20 ay=34 mgr=true
+float x=0 y=39 ax=20 ay=73 mgr=true
+translate BlockFormattingContext: (-2,-13)
+float x=266 y=58 ax=287 ay=95 mgr=true
+line left=26 right=0 both=26 delta=42
+translate BlockFormattingContext: (-14,-18)
+float x=0 y=53 ax=33 ay=95 mgr=true
+float x=0 y=94 ax=33 ay=136 mgr=true
+clear y=91 clearDelta=90
+line left=0 right=0 both=0 delta=0
+float x=88 y=115 ax=121 ay=157 mgr=true
+line left=0 right=248 both=248 delta=61
+op ax=33 ay=51
+op ax=33 ay=90
+op ax=46 ay=112
+op ax=46 ay=153
+op ax=300 ay=112
+op ax=134 ay=174
+loc ax=33 ay=51
+loc ax=33 ay=90
+loc ax=300 ay=112
+loc ax=46 ay=112
+loc ax=46 ay=153
+loc ax=134 ay=174
+run 34
+float x=0 y=0 ax=21 ay=5 mgr=true
+float x=250 y=0 ax=271 ay=5 mgr=true
+float x=0 y=58 ax=21 ay=63 mgr=true
+float x=0 y=67 ax=21 ay=72 mgr=true
+translate BlockFormattingContext: (-6,-14)
+clear y=0 clearDelta=91
+translate BlockFormattingContext: (-6,-26)
+float x=85 y=41 ax=112 ay=72 mgr=true
+float x=132 y=65 ax=159 ay=96 mgr=true
+float x=0 y=65 ax=27 ay=96 mgr=true
+float x=102 y=104 ax=129 ay=135 mgr=true
+float x=218 y=142 ax=245 ay=173 mgr=true
+float x=0 y=142 ax=27 ay=173 mgr=true
+clear y=2 clearDelta=210
+clear y=139 clearDelta=188
+float x=0 y=186 ax=27 ay=217 mgr=true
+float x=0 y=186 ax=27 ay=217 mgr=true
+float x=79 y=211 ax=106 ay=242 mgr=true
+translate BlockFormattingContext: (-7,-35)
+clear y=178 clearDelta=107
+float x=0 y=250 ax=28 ay=290 mgr=true
+op ax=34 ay=22
+op ax=284 ay=22
+op ax=34 ay=80
+op ax=34 ay=89
+op ax=40 ay=113
+op ax=40 ay=190
+op ax=40 ay=234
+op ax=40 ay=234
+op ax=41 ay=307
+op ax=125 ay=89
+op ax=172 ay=113
+op ax=142 ay=152
+op ax=258 ay=190
+op ax=119 ay=259
+loc ax=34 ay=22
+loc ax=284 ay=22
+loc ax=34 ay=80
+loc ax=34 ay=89
+loc ax=125 ay=89
+loc ax=172 ay=113
+loc ax=40 ay=113
+loc ax=142 ay=152
+loc ax=258 ay=190
+loc ax=40 ay=190
+loc ax=40 ay=234
+loc ax=40 ay=234
+loc ax=119 ay=259
+loc ax=41 ay=307
+run 35
+line left=0 right=0 both=0 delta=0
+clear y=24 clearDelta=-24
+float x=46 y=43 ax=77 ay=79 mgr=true
+float x=0 y=62 ax=31 ay=98 mgr=true
+float x=206 y=62 ax=237 ay=98 mgr=true
+float x=0 y=86 ax=31 ay=122 mgr=true
+float x=244 y=110 ax=275 ay=146 mgr=true
+remove offset=0,0 mgr=true after=true
+float x=312 y=110 ax=343 ay=146 mgr=true
+line left=0 right=311 both=311 delta=12
+line left=219 right=129 both=348 delta=29
+float x=0 y=169 ax=31 ay=205 mgr=true
+float x=0 y=228 ax=31 ay=264 mgr=true
+float x=0 y=282 ax=31 ay=318 mgr=true
+clear y=63 clearDelta=228
+line left=214 right=0 both=214 delta=2
+float x=119 y=282 ax=150 ay=318 mgr=true
+line left=213 right=0 both=213 delta=0
+line left=0 right=0 both=0 delta=0
+clear y=123 clearDelta=202
+float x=220 y=325 ax=251 ay=361 mgr=true
+line left=164 right=0 both=164 delta=75
+line left=342 right=0 both=342 delta=66
+clear y=184 clearDelta=179
+remove offset=0,0 mgr=true after=true
+line left=159 right=0 both=159 delta=44
+clear y=360 clearDelta=176
+float x=163 y=379 ax=194 ay=415 mgr=true
+op ax=44 ay=115
+op ax=288 ay=163
+op ax=44 ay=222
+op ax=44 ay=281
+op ax=44 ay=335
+op ax=90 ay=96
+op ax=250 ay=115
+op ax=163 ay=335
+op ax=264 ay=378
+op ax=207 ay=432
+loc ax=90 ay=96
+loc ax=44 ay=115
+loc ax=250 ay=115
+loc ax=288 ay=163
+loc ax=44 ay=222
+loc ax=44 ay=281
+loc ax=44 ay=335
+loc ax=163 ay=335
+loc ax=264 ay=378
+loc ax=207 ay=432
+run 36
+float x=308 y=0 ax=341 ay=9 mgr=true
+float x=151 y=22 ax=184 ay=31 mgr=true
+float x=185 y=42 ax=218 ay=51 mgr=true
+float x=66 y=42 ax=99 ay=51 mgr=true
+float x=0 y=70 ax=33 ay=79 mgr=true
+op ax=46 ay=96
+op ax=354 ay=26
+op ax=197 ay=48
+op ax=231 ay=68
+op ax=112 ay=68
+loc ax=354 ay=26
+loc ax=197 ay=48
+loc ax=231 ay=68
+loc ax=112 ay=68
+loc ax=46 ay=96
+run 37
+line left=0 right=0 both=0 delta=0
+line left=0 right=0 both=0 delta=0
+line left=0 right=0 both=0 delta=0
+float x=0 y=30 ax=43 ay=70 mgr=true
+float x=37 y=62 ax=80 ay=102 mgr=true
+float x=168 y=120 ax=211 ay=160 mgr=true
+remove offset=0,0 mgr=true after=true
+float x=95 y=120 ax=138 ay=160 mgr=true
+translate BlockFormattingContext: (-3,-11)
+float x=12 y=158 ax=58 ay=209 mgr=true
+float x=325 y=214 ax=371 ay=265 mgr=true
+float x=0 y=214 ax=46 ay=265 mgr=true
+op ax=59 ay=282
+op ax=93 ay=119
+op ax=224 ay=177
+op ax=151 ay=177
+op ax=71 ay=226
+op ax=384 ay=282
+loc ax=93 ay=119
+loc ax=224 ay=177
+loc ax=151 ay=177
+loc ax=71 ay=226
+loc ax=384 ay=282
+loc ax=59 ay=282
+run 38
+float x=0 y=0 ax=45 ay=13 mgr=true
+line left=14 right=0 both=14 delta=11
+line left=10 right=0 both=10 delta=5
+float x=0 y=18 ax=45 ay=31 mgr=true
+float x=0 y=33 ax=45 ay=46 mgr=true
+line left=49 right=0 both=49 delta=24
+translate BlockFormattingContext: (-4,2)
+float x=160 y=80 ax=209 ay=91 mgr=true
+translate BlockFormattingContext: (-6,-3)
+line left=359 right=0 both=359 delta=54
+translate BlockFormattingContext: (-13,-2)
+remove offset=0,0 mgr=true after=true
+float x=0 y=94 ax=58 ay=109 mgr=true
+float x=186 y=94 ax=244 ay=109 mgr=true
+line left=356 right=0 both=356 delta=40
+remove offset=0,0 mgr=true after=true
+float x=294 y=145 ax=352 ay=160 mgr=true
+float x=0 y=158 ax=58 ay=173 mgr=true
+float x=108 y=196 ax=166 ay=211 mgr=true
+op ax=58 ay=48
+op ax=71 ay=126
+op ax=71 ay=190
+op ax=222 ay=108
+op ax=257 ay=126
+op ax=365 ay=177
+op ax=179 ay=228
+loc ax=58 ay=48
+loc ax=222 ay=108
+loc ax=71 ay=126
+loc ax=257 ay=126
+loc ax=365 ay=177
+loc ax=71 ay=190
+loc ax=179 ay=228
+run 39
+float x=247 y=0 ax=252 ay=44 mgr=true
+float x=82 y=0 ax=87 ay=44 mgr=true
+float x=-13 y=46 ax=-8 ay=90 mgr=true
+line left=0 right=112 both=112 delta=11
+float x=115 y=67 ax=120 ay=111 mgr=true
+float x=0 y=110 ax=5 ay=154 mgr=true
+line left=0 right=212 both=212 delta=0
+remove offset=0,0 mgr=true after=true
+float x=240 y=110 ax=245 ay=154 mgr=true
+clear y=164 clearDelta=132
+clear y=193 clearDelta=-29
+float x=0 y=230 ax=5 ay=274 mgr=true
+line left=242 right=0 both=242 delta=11
+translate BlockFormattingContext: (-12,-14)
+translate BlockFormattingContext: (-15,-11)
+float x=263 y=238 ax=283 ay=293 mgr=true
+translate BlockFormattingContext: (-17,-6)
+line left=229 right=0 both=229 delta=3
+clear y=252 clearDelta=16
+float x=159 y=270 ax=181 ay=320 mgr=true
+translate BlockFormattingContext: (-18,-17)
+float x=0 y=299 ax=23 ay=360 mgr=true
+float x=141 y=337 ax=164 ay=398 mgr=true
+float x=0 y=360 ax=23 ay=421 mgr=true
+remove offset=0,0 mgr=true after=true
+float x=0 y=373 ax=23 ay=434 mgr=true
+float x=91 y=373 ax=114 ay=434 mgr=true
+line left=0 right=154 both=154 delta=46
+float x=181 y=420 ax=204 ay=481 mgr=true
+remove offset=-18,-17 mgr=true after=true
+translate BlockFormattingContext: (-24,-17)
+float x=173 y=430 ax=202 ay=491 mgr=true
+float x=219 y=443 ax=248 ay=504 mgr=true
+float x=0 y=443 ax=29 ay=504 mgr=true
+op ax=18 ay=171
+op ax=18 ay=291
+op ax=36 ay=377
+op ax=36 ay=438
+op ax=36 ay=451
+op ax=42 ay=521
+op ax=265 ay=61
+op ax=100 ay=61
+op ax=133 ay=128
+op ax=296 ay=310
+op ax=194 ay=337
+op ax=177 ay=415
+op ax=217 ay=498
+op ax=215 ay=508
+op ax=261 ay=521
+loc ax=265 ay=61
+loc ax=100 ay=61
+loc ax=133 ay=128
+loc ax=18 ay=171
+loc ax=18 ay=291
+loc ax=296 ay=310
+loc ax=194 ay=337
+loc ax=36 ay=377
+loc ax=177 ay=415
+loc ax=36 ay=438
+loc ax=36 ay=451
+loc ax=217 ay=498
+loc ax=215 ay=508
+loc ax=261 ay=521
+loc ax=42 ay=521
+run 40
+line left=0 right=0 both=0 delta=0
+clear y=10 clearDelta=-10
+float x=0 y=48 ax=7 ay=73 mgr=true
+float x=100 y=53 ax=107 ay=78 mgr=true
+clear y=48 clearDelta=22
+float x=383 y=60 ax=390 ay=85 mgr=true
+line left=259 right=0 both=259 delta=10
+remove offset=0,0 mgr=true after=true
+float x=0 y=70 ax=7 ay=95 mgr=true
+float x=179 y=106 ax=186 ay=131 mgr=true
+op ax=120 ay=95
+op ax=20 ay=112
+op ax=199 ay=148
+op ax=403 ay=102
+loc ax=120 ay=95
+loc ax=403 ay=102
+loc ax=20 ay=112
+loc ax=199 ay=148
+run 41
+float x=0 y=0 ax=18 ay=48 mgr=true
+float x=0 y=41 ax=18 ay=89 mgr=true
+float x=74 y=41 ax=92 ay=89 mgr=true
+line left=118 right=0 both=118 delta=41
+line left=121 right=0 both=121 delta=34
+line left=118 right=0 both=118 delta=33
+float x=0 y=81 ax=18 ay=129 mgr=true
+float x=259 y=81 ax=277 ay=129 mgr=true
+float x=210 y=134 ax=228 ay=182 mgr=true
+float x=0 y=145 ax=18 ay=193 mgr=true
+clear y=187 clearDelta=167
+float x=0 y=224 ax=18 ay=272 mgr=true
+line left=92 right=0 both=92 delta=36
+float x=308 y=236 ax=326 ay=284 mgr=true
+float x=66 y=273 ax=84 ay=321 mgr=true
+remove offset=0,0 mgr=true after=true
+float x=0 y=308 ax=18 ay=356 mgr=true
+op ax=31 ay=65
+op ax=31 ay=106
+op ax=105 ay=106
+op ax=31 ay=146
+op ax=31 ay=210
+op ax=31 ay=289
+op ax=31 ay=373
+op ax=290 ay=146
+op ax=241 ay=199
+op ax=97 ay=338
+loc ax=31 ay=65
+loc ax=31 ay=106
+loc ax=105 ay=106
+loc ax=31 ay=146
+loc ax=290 ay=146
+loc ax=241 ay=199
+loc ax=31 ay=210
+loc ax=31 ay=289
+loc ax=97 ay=338
+loc ax=31 ay=373
+run 42
+float x=0 y=0 ax=20 ay=29 mgr=true
+translate BlockFormattingContext: (1,-4)
+float x=66 y=0 ax=85 ay=33 mgr=true
+line left=63 right=0 both=63 delta=19
+remove offset=0,0 mgr=true after=true
+float x=-6 y=43 ax=13 ay=76 mgr=true
+float x=0 y=54 ax=19 ay=87 mgr=true
+translate BlockFormattingContext: (4,-13)
+float x=0 y=71 ax=16 ay=113 mgr=true
+float x=0 y=73 ax=16 ay=115 mgr=true
+float x=0 y=77 ax=16 ay=119 mgr=true
+float x=236 y=77 ax=252 ay=119 mgr=true
+line left=142 right=0 both=142 delta=28
+float x=-1 y=108 ax=15 ay=150 mgr=true
+translate BlockFormattingContext: (-2,-21)
+clear y=123 clearDelta=117
+remove offset=1,-4 mgr=true after=true
+remove offset=4,-13 mgr=true after=true
+float x=0 y=126 ax=22 ay=176 mgr=true
+line left=125 right=293 both=418 delta=31
+line left=0 right=0 both=0 delta=0
+remove offset=4,-13 mgr=true after=true
+line left=0 right=0 both=0 delta=0
+op ax=98 ay=50
+op ax=32 ay=104
+op ax=29 ay=130
+op ax=29 ay=132
+op ax=35 ay=193
+op ax=28 ay=167
+loc ax=98 ay=50
+loc ax=32 ay=104
+loc ax=29 ay=130
+loc ax=29 ay=132
+loc ax=28 ay=167
+loc ax=35 ay=193
+run 43
+float x=159 y=0 ax=189 ay=10 mgr=true
+float x=0 y=0 ax=30 ay=10 mgr=true
+float x=0 y=29 ax=30 ay=39 mgr=true
+line left=0 right=0 both=0 delta=0
+line left=0 right=149 both=149 delta=11
+float x=262 y=87 ax=292 ay=97 mgr=true
+float x=55 y=88 ax=85 ay=98 mgr=true
+float x=161 y=103 ax=191 ay=113 mgr=true
+float x=0 y=103 ax=30 ay=113 mgr=true
+float x=0 y=156 ax=30 ay=166 mgr=true
+float x=0 y=158 ax=30 ay=168 mgr=true
+line left=353 right=0 both=353 delta=49
+float x=316 y=203 ax=346 ay=213 mgr=true
+clear y=215 clearDelta=165
+float x=0 y=253 ax=30 ay=263 mgr=true
+float x=0 y=253 ax=30 ay=263 mgr=true
+float x=0 y=301 ax=30 ay=311 mgr=true
+clear y=253 clearDelta=58
+clear y=259 clearDelta=52
+clear y=259 clearDelta=52
+clear y=272 clearDelta=39
+line left=391 right=0 both=391 delta=9
+float x=76 y=301 ax=106 ay=311 mgr=true
+line left=385 right=0 both=385 delta=5
+float x=336 y=314 ax=366 ay=324 mgr=true
+float x=0 y=318 ax=30 ay=328 mgr=true
+float x=17 y=350 ax=47 ay=360 mgr=true
+line left=300 right=0 both=300 delta=0
+line left=262 right=0 both=262 delta=27
+line left=258 right=57 both=315 delta=12
+float x=204 y=399 ax=234 ay=409 mgr=true
+op ax=43 ay=27
+op ax=43 ay=56
+op ax=43 ay=130
+op ax=43 ay=183
+op ax=43 ay=185
+op ax=43 ay=280
+op ax=43 ay=280
+op ax=43 ay=328
+op ax=119 ay=328
+op ax=43 ay=345
+op ax=202 ay=27
+op ax=305 ay=114
+op ax=98 ay=115
+op ax=204 ay=130
+op ax=359 ay=230
+op ax=379 ay=341
+op ax=60 ay=377
+op ax=247 ay=426
+loc ax=202 ay=27
+loc ax=43 ay=27
+loc ax=43 ay=56
+loc ax=305 ay=114
+loc ax=98 ay=115
+loc ax=204 ay=130
+loc ax=43 ay=130
+loc ax=43 ay=183
+loc ax=43 ay=185
+loc ax=359 ay=230
+loc ax=43 ay=280
+loc ax=43 ay=280
+loc ax=43 ay=328
+loc ax=119 ay=328
+loc ax=379 ay=341
+loc ax=43 ay=345
+loc ax=60 ay=377
+loc ax=247 ay=426
+run 44
+line left=0 right=0 both=0 delta=0
+float x=0 y=14 ax=32 ay=47 mgr=true
+float x=148 y=14 ax=180 ay=47 mgr=true
+translate BlockFormattingContext: (1,-12)
+float x=216 y=51 ax=247 ay=96 mgr=true
+line left=279 right=0 both=279 delta=49
+remove offset=1,-12 mgr=true after=true
+float x=0 y=51 ax=31 ay=96 mgr=true
+op ax=45 ay=64
+op ax=193 ay=64
+op ax=44 ay=113
+loc ax=45 ay=64
+loc ax=193 ay=64
+loc ax=44 ay=113
+run 45
+float x=0 y=0 ax=34 ay=14 mgr=true
+clear y=25 clearDelta=25
+clear y=60 clearDelta=-35
+float x=248 y=84 ax=282 ay=98 mgr=true
+float x=-2 y=107 ax=32 ay=121 mgr=true
+remove offset=0,0 mgr=true after=true
+line left=0 right=0 both=0 delta=0
+translate BlockFormattingContext: (-3,4)
+float x=0 y=124 ax=37 ay=134 mgr=true
+line left=0 right=40 both=40 delta=6
+float x=0 y=169 ax=37 ay=179 mgr=true
+float x=0 y=208 ax=37 ay=218 mgr=true
+float x=160 y=209 ax=197 ay=219 mgr=true
+float x=0 y=209 ax=37 ay=219 mgr=true
+float x=0 y=247 ax=37 ay=257 mgr=true
+op ax=47 ay=31
+op ax=50 ay=151
+op ax=50 ay=196
+op ax=50 ay=235
+op ax=50 ay=236
+op ax=50 ay=274
+op ax=45 ay=138
+op ax=210 ay=236
+loc ax=47 ay=31
+loc ax=45 ay=138
+loc ax=50 ay=151
+loc ax=50 ay=196
+loc ax=50 ay=235
+loc ax=210 ay=236
+loc ax=50 ay=236
+loc ax=50 ay=274
+run 46
+line left=0 right=0 both=0 delta=0
+line left=0 right=0 both=0 delta=0
+float x=0 y=18 ax=44 ay=55 mgr=true
+float x=81 y=53 ax=125 ay=90 mgr=true
+clear y=56 clearDelta=41
+line left=0 right=0 both=0 delta=0
+float x=0 y=79 ax=44 ay=116 mgr=true
+translate BlockFormattingContext: (-2,4)
+remove offset=0,0 mgr=true after=true
+float x=68 y=118 ax=114 ay=151 mgr=true
+float x=0 y=131 ax=46 ay=164 mgr=true
+float x=86 y=150 ax=132 ay=183 mgr=true
+clear y=150 clearDelta=106
+float x=0 y=189 ax=46 ay=222 mgr=true
+clear y=186 clearDelta=30
+translate BlockFormattingContext: (-11,-8)
+remove offset=-2,4 mgr=true after=true
+float x=187 y=187 ax=242 ay=232 mgr=true
+translate BlockFormattingContext: (-13,-13)
+translate BlockFormattingContext: (-13,-15)
+float x=0 y=195 ax=57 ay=247 mgr=true
+op ax=57 ay=133
+op ax=59 ay=181
+op ax=59 ay=239
+op ax=70 ay=264
+op ax=138 ay=107
+op ax=145 ay=200
+op ax=255 ay=249
+loc ax=138 ay=107
+loc ax=57 ay=133
+loc ax=59 ay=181
+loc ax=145 ay=200
+loc ax=59 ay=239
+loc ax=255 ay=249
+loc ax=70 ay=264
+run 47
+float x=0 y=0 ax=46 ay=18 mgr=true
+line left=170 right=0 both=170 delta=47
+translate BlockFormattingContext: (5,-10)
+float x=0 y=37 ax=41 ay=65 mgr=true
+float x=0 y=96 ax=41 ay=124 mgr=true
+clear y=111 clearDelta=105
+float x=0 y=150 ax=41 ay=178 mgr=true
+float x=0 y=204 ax=41 ay=232 mgr=true
+float x=0 y=251 ax=41 ay=279 mgr=true
+float x=0 y=277 ax=41 ay=305 mgr=true
+float x=25 y=333 ax=66 ay=361 mgr=true
+clear y=150 clearDelta=229
+float x=0 y=369 ax=41 ay=397 mgr=true
+translate BlockFormattingContext: (4,-14)
+float x=30 y=415 ax=72 ay=447 mgr=true
+float x=127 y=439 ax=169 ay=471 mgr=true
+float x=19 y=455 ax=61 ay=487 mgr=true
+float x=269 y=496 ax=311 ay=528 mgr=true
+float x=0 y=496 ax=42 ay=528 mgr=true
+float x=234 y=523 ax=276 ay=555 mgr=true
+float x=52 y=569 ax=94 ay=601 mgr=true
+clear y=585 clearDelta=420
+line left=0 right=0 both=0 delta=0
+remove offset=5,-10 mgr=true after=true
+line left=0 right=0 both=0 delta=0
+line left=0 right=0 both=0 delta=0
+line left=0 right=0 both=0 delta=0
+float x=0 y=645 ax=42 ay=677 mgr=true
+op ax=59 ay=35
+op ax=54 ay=82
+op ax=54 ay=141
+op ax=54 ay=195
+op ax=54 ay=296
+op ax=54 ay=322
+op ax=79 ay=378
+op ax=54 ay=414
+op ax=55 ay=545
+op ax=55 ay=694
+op ax=85 ay=464
+op ax=182 ay=488
+op ax=74 ay=504
+op ax=324 ay=545
+op ax=289 ay=572
+op ax=107 ay=618
+loc ax=59 ay=35
+loc ax=54 ay=82
+loc ax=54 ay=141
+loc ax=54 ay=195
+loc ax=54 ay=296
+loc ax=54 ay=322
+loc ax=79 ay=378
+loc ax=54 ay=414
+loc ax=85 ay=464
+loc ax=182 ay=488
+loc ax=74 ay=504
+loc ax=324 ay=545
+loc ax=55 ay=545
+loc ax=289 ay=572
+loc ax=107 ay=618
+loc ax=55 ay=694
+run 48
+float x=0 y=0 ax=6 ay=49 mgr=true
+float x=0 y=49 ax=6 ay=98 mgr=true
+line left=102 right=0 both=102 delta=42
+translate BlockFormattingContext: (2,-11)
+float x=24 y=58 ax=28 ay=118 mgr=true
+translate BlockFormattingContext: (-1,-6)
+op ax=19 ay=66
+op ax=19 ay=115
+op ax=41 ay=135
+loc ax=19 ay=66
+loc ax=19 ay=115
+loc ax=41 ay=135
+run 49
+float x=113 y=0 ax=121 ay=22 mgr=true
+float x=0 y=30 ax=8 ay=52 mgr=true
+float x=149 y=30 ax=157 ay=52 mgr=true
+float x=70 y=56 ax=78 ay=78 mgr=true
+translate BlockFormattingContext: (4,-9)
+remove offset=0,0 mgr=true after=true
+float x=0 y=47 ax=4 ay=78 mgr=true
+line left=0 right=0 both=0 delta=0
+remove offset=0,0 mgr=true after=true
+float x=40 y=47 ax=44 ay=78 mgr=true
+translate BlockFormattingContext: (8,-5)
+op ax=17 ay=95
+op ax=57 ay=95
+op ax=134 ay=39
+op ax=170 ay=69
+loc ax=134 ay=39
+loc ax=170 ay=69
+loc ax=17 ay=95
+loc ax=57 ay=95
+run 50
+float x=54 y=0 ax=72 ay=3 mgr=true
+line left=0 right=112 both=112 delta=44
+line left=0 right=41 both=41 delta=26
+clear y=41 clearDelta=3
+line left=0 right=0 both=0 delta=0
+float x=0 y=81 ax=18 ay=84 mgr=true
+float x=41 y=81 ax=59 ay=84 mgr=true
+float x=34 y=136 ax=52 ay=139 mgr=true
+float x=270 y=140 ax=288 ay=143 mgr=true
+float x=0 y=140 ax=18 ay=143 mgr=true
+line left=212 right=0 both=212 delta=48
+float x=118 y=156 ax=136 ay=159 mgr=true
+float x=4 y=180 ax=22 ay=183 mgr=true
+line left=208 right=0 both=208 delta=35
+line left=214 right=0 both=214 delta=31
+float x=0 y=210 ax=18 ay=213 mgr=true
+float x=70 y=253 ax=88 ay=256 mgr=true
+float x=133 y=296 ax=151 ay=299 mgr=true
+float x=269 y=333 ax=287 ay=336 mgr=true
+op ax=31 ay=101
+op ax=72 ay=101
+op ax=31 ay=160
+op ax=149 ay=176
+op ax=31 ay=230
+op ax=85 ay=20
+op ax=65 ay=156
+op ax=301 ay=160
+op ax=35 ay=200
+op ax=101 ay=273
+op ax=164 ay=316
+op ax=300 ay=353
+loc ax=85 ay=20
+loc ax=31 ay=101
+loc ax=72 ay=101
+loc ax=65 ay=156
+loc ax=301 ay=160
+loc ax=31 ay=160
+loc ax=149 ay=176
+loc ax=35 ay=200
+loc ax=31 ay=230
+loc ax=101 ay=273
+loc ax=164 ay=316
+loc ax=300 ay=353
+run 51
+clear y=0 clearDelta=0
+float x=146 y=30 ax=166 ay=56 mgr=true
+translate BlockFormattingContext: (-2,-7)
+clear y=30 clearDelta=29
+float x=235 y=53 ax=257 ay=86 mgr=true
+clear y=53 clearDelta=64
+float x=0 y=55 ax=22 ay=88 mgr=true
+remove offset=-2,-7 mgr=true after=true
+float x=-3 y=110 ax=19 ay=143 mgr=true
+float x=-4 y=167 ax=18 ay=200 mgr=true
+float x=0 y=203 ax=22 ay=236 mgr=true
+float x=107 y=210 ax=129 ay=243 mgr=true
+line left=0 right=0 both=0 delta=0
+float x=233 y=222 ax=255 ay=255 mgr=true
+float x=145 y=222 ax=167 ay=255 mgr=true
+float x=156 y=258 ax=178 ay=291 mgr=true
+line left=0 right=0 both=0 delta=0
+float x=82 y=261 ax=104 ay=294 mgr=true
+translate BlockFormattingContext: (-3,-8)
+line left=0 right=0 both=0 delta=0
+remove offset=-2,-7 mgr=true after=true
+float x=-11 y=260 ax=12 ay=294 mgr=true
+float x=0 y=315 ax=23 ay=349 mgr=true
+clear y=327 clearDelta=242
+remove offset=-2,-7 mgr=true after=true
+op ax=35 ay=253
+op ax=36 ay=366
+op ax=179 ay=73
+op ax=270 ay=103
+op ax=32 ay=160
+op ax=31 ay=217
+op ax=142 ay=260
+op ax=180 ay=272
+op ax=191 ay=308
+op ax=25 ay=311
+loc ax=179 ay=73
+loc ax=270 ay=103
+loc ax=32 ay=160
+loc ax=31 ay=217
+loc ax=35 ay=253
+loc ax=142 ay=260
+loc ax=180 ay=272
+loc ax=191 ay=308
+loc ax=25 ay=311
+loc ax=36 ay=366
+run 52
+float x=0 y=0 ax=30 ay=7 mgr=true
+line left=202 right=0 both=202 delta=32
+line left=197 right=0 both=197 delta=30
+float x=0 y=32 ax=30 ay=39 mgr=true
+clear y=51 clearDelta=26
+float x=112 y=52 ax=142 ay=59 mgr=true
+float x=0 y=52 ax=30 ay=59 mgr=true
+clear y=106 clearDelta=57
+line left=0 right=0 both=0 delta=0
+float x=0 y=146 ax=30 ay=153 mgr=true
+remove offset=0,0 mgr=true after=true
+float x=0 y=151 ax=30 ay=158 mgr=true
+remove offset=0,0 mgr=true after=true
+line left=193 right=0 both=193 delta=34
+translate BlockFormattingContext: (-1,-9)
+clear y=175 clearDelta=31
+line left=0 right=0 both=0 delta=0
+float x=-11 y=220 ax=20 ay=236 mgr=true
+float x=0 y=261 ax=31 ay=277 mgr=true
+float x=0 y=269 ax=31 ay=285 mgr=true
+float x=18 y=270 ax=49 ay=286 mgr=true
+float x=-9 y=287 ax=22 ay=303 mgr=true
+float x=97 y=302 ax=128 ay=318 mgr=true
+remove offset=-1,-9 mgr=true after=true
+translate BlockFormattingContext: (4,-14)
+remove offset=-1,-9 mgr=true after=true
+float x=0 y=297 ax=26 ay=318 mgr=true
+float x=-10 y=321 ax=16 ay=342 mgr=true
+clear y=356 clearDelta=153
+float x=66 y=376 ax=92 ay=397 mgr=true
+float x=0 y=399 ax=26 ay=420 mgr=true
+line left=0 right=54 both=54 delta=37
+float x=-8 y=426 ax=18 ay=447 mgr=true
+op ax=43 ay=24
+op ax=43 ay=56
+op ax=43 ay=170
+op ax=43 ay=175
+op ax=44 ay=294
+op ax=39 ay=335
+op ax=33 ay=253
+op ax=62 ay=303
+op ax=141 ay=335
+op ax=29 ay=359
+op ax=105 ay=414
+op ax=39 ay=437
+op ax=31 ay=464
+loc ax=43 ay=24
+loc ax=43 ay=56
+loc ax=43 ay=170
+loc ax=43 ay=175
+loc ax=33 ay=253
+loc ax=44 ay=294
+loc ax=62 ay=303
+loc ax=141 ay=335
+loc ax=39 ay=335
+loc ax=29 ay=359
+loc ax=105 ay=414
+loc ax=39 ay=437
+loc ax=31 ay=464
+run 53
+clear y=0 clearDelta=0
+float x=0 y=20 ax=32 ay=58 mgr=true
+float x=-10 y=61 ax=22 ay=99 mgr=true
+translate BlockFormattingContext: (-13,-4)
+float x=101 y=67 ax=146 ay=109 mgr=true
+float x=0 y=67 ax=45 ay=109 mgr=true
+float x=0 y=109 ax=45 ay=151 mgr=true
+float x=-2 y=160 ax=43 ay=202 mgr=true
+float x=11 y=163 ax=56 ay=205 mgr=true
+float x=47 y=216 ax=92 ay=258 mgr=true
+op ax=45 ay=75
+op ax=58 ay=126
+op ax=58 ay=168
+op ax=35 ay=116
+op ax=159 ay=126
+op ax=56 ay=219
+op ax=69 ay=222
+op ax=105 ay=275
+loc ax=45 ay=75
+loc ax=35 ay=116
+loc ax=159 ay=126
+loc ax=58 ay=126
+loc ax=58 ay=168
+loc ax=56 ay=219
+loc ax=69 ay=222
+loc ax=105 ay=275
+run 54
+float x=131 y=0 ax=173 ay=11 mgr=true
+remove offset=0,0 mgr=true after=true
+line left=0 right=0 both=0 delta=0
+float x=0 y=23 ax=42 ay=34 mgr=true
+float x=0 y=54 ax=42 ay=65 mgr=true
+float x=0 y=113 ax=42 ay=124 mgr=true
+float x=218 y=113 ax=260 ay=124 mgr=true
+clear y=23 clearDelta=134
+translate BlockFormattingContext: (-10,5)
+float x=146 y=162 ax=198 ay=168 mgr=true
+clear y=49 clearDelta=159
+translate BlockFormattingContext: (-7,-8)
+float x=0 y=200 ax=49 ay=219 mgr=true
+float x=0 y=239 ax=49 ay=258 mgr=true
+float x=102 y=239 ax=151 ay=258 mgr=true
+float x=0 y=296 ax=49 ay=315 mgr=true
+clear y=325 clearDelta=262
+op ax=55 ay=51
+op ax=55 ay=82
+op ax=55 ay=141
+op ax=62 ay=236
+op ax=62 ay=275
+op ax=164 ay=275
+op ax=62 ay=332
+op ax=273 ay=141
+op ax=211 ay=185
+loc ax=55 ay=51
+loc ax=55 ay=82
+loc ax=55 ay=141
+loc ax=273 ay=141
+loc ax=211 ay=185
+loc ax=62 ay=236
+loc ax=62 ay=275
+loc ax=164 ay=275
+loc ax=62 ay=332
+run 55
+clear y=0 clearDelta=0
+float x=0 y=27 ax=44 ay=69 mgr=true
+float x=146 y=43 ax=190 ay=85 mgr=true
+float x=28 y=43 ax=72 ay=85 mgr=true
+float x=112 y=58 ax=156 ay=100 mgr=true
+float x=0 y=114 ax=44 ay=156 mgr=true
+line left=167 right=0 both=167 delta=9
+float x=140 y=114 ax=184 ay=156 mgr=true
+line left=173 right=168 both=341 delta=4
+line left=0 right=37 both=37 delta=49
+clear y=164 clearDelta=96
+float x=67 y=169 ax=111 ay=211 mgr=true
+clear y=223 clearDelta=57
+clear y=236 clearDelta=-10
+clear y=262 clearDelta=-36
+float x=0 y=286 ax=44 ay=328 mgr=true
+clear y=286 clearDelta=3
+float x=0 y=289 ax=44 ay=331 mgr=true
+float x=108 y=348 ax=152 ay=390 mgr=true
+remove offset=0,0 mgr=true after=true
+float x=114 y=407 ax=158 ay=449 mgr=true
+float x=0 y=452 ax=44 ay=494 mgr=true
+float x=0 y=477 ax=44 ay=519 mgr=true
+translate BlockFormattingContext: (5,-2)
+op ax=57 ay=86
+op ax=57 ay=173
+op ax=197 ay=173
+op ax=57 ay=345
+op ax=57 ay=348
+op ax=57 ay=511
+op ax=57 ay=536
+op ax=203 ay=102
+op ax=85 ay=102
+op ax=169 ay=117
+op ax=165 ay=407
+op ax=171 ay=466
+loc ax=57 ay=86
+loc ax=203 ay=102
+loc ax=85 ay=102
+loc ax=169 ay=117
+loc ax=57 ay=173
+loc ax=197 ay=173
+loc ax=57 ay=345
+loc ax=57 ay=348
+loc ax=165 ay=407
+loc ax=171 ay=466
+loc ax=57 ay=511
+loc ax=57 ay=536
+run 56
+float x=0 y=0 ax=4 ay=23 mgr=true
+float x=0 y=24 ax=4 ay=47 mgr=true
+remove offset=0,0 mgr=true after=true
+remove offset=0,0 mgr=true after=true
+translate BlockFormattingContext: (-7,-9)
+translate BlockFormattingContext: (-20,-13)
+float x=-5 y=0 ax=19 ay=36 mgr=true
+float x=0 y=47 ax=24 ay=83 mgr=true
+float x=0 y=61 ax=24 ay=97 mgr=true
+line left=0 right=87 both=87 delta=53
+clear y=13 clearDelta=120
+float x=72 y=61 ax=96 ay=97 mgr=true
+remove offset=-20,-13 mgr=true after=true
+float x=0 y=100 ax=24 ay=136 mgr=true
+line left=0 right=95 both=95 delta=24
+clear y=39 clearDelta=96
+remove offset=-20,-13 mgr=true after=true
+line left=0 right=0 both=0 delta=0
+float x=83 y=100 ax=107 ay=136 mgr=true
+float x=0 y=122 ax=24 ay=158 mgr=true
+float x=0 y=176 ax=24 ay=212 mgr=true
+float x=0 y=210 ax=24 ay=246 mgr=true
+float x=0 y=230 ax=24 ay=266 mgr=true
+translate BlockFormattingContext: (-32,-27)
+float x=0 y=246 ax=36 ay=296 mgr=true
+float x=-16 y=259 ax=20 ay=309 mgr=true
+float x=45 y=306 ax=81 ay=356 mgr=true
+float x=45 y=321 ax=81 ay=371 mgr=true
+float x=6 y=321 ax=42 ay=371 mgr=true
+clear y=83 clearDelta=324
+float x=0 y=380 ax=36 ay=430 mgr=true
+op ax=37 ay=100
+op ax=37 ay=153
+op ax=37 ay=175
+op ax=37 ay=229
+op ax=37 ay=263
+op ax=37 ay=283
+op ax=49 ay=447
+op ax=109 ay=114
+op ax=120 ay=153
+op ax=49 ay=313
+op ax=33 ay=326
+op ax=94 ay=373
+op ax=94 ay=388
+op ax=55 ay=388
+loc ax=37 ay=100
+loc ax=109 ay=114
+loc ax=37 ay=153
+loc ax=120 ay=153
+loc ax=37 ay=175
+loc ax=37 ay=229
+loc ax=37 ay=263
+loc ax=37 ay=283
+loc ax=49 ay=313
+loc ax=33 ay=326
+loc ax=94 ay=373
+loc ax=94 ay=388
+loc ax=55 ay=388
+loc ax=49 ay=447
+run 57
+line left=0 right=0 both=0 delta=0
+translate BlockFormattingContext: (-2,-6)
+float x=0 y=7 ax=8 ay=59 mgr=true
+float x=175 y=7 ax=183 ay=59 mgr=true
+translate BlockFormattingContext: (1,-8)
+remove offset=-2,-6 mgr=true after=true
+remove offset=-2,-6 mgr=true after=true
+run 58
+float x=123 y=0 ax=139 ay=27 mgr=true
+float x=0 y=20 ax=16 ay=47 mgr=true
+float x=0 y=27 ax=16 ay=54 mgr=true
+float x=137 y=27 ax=153 ay=54 mgr=true
+float x=0 y=77 ax=16 ay=104 mgr=true
+float x=2 y=100 ax=18 ay=127 mgr=true
+line left=0 right=81 both=81 delta=13
+float x=86 y=108 ax=102 ay=135 mgr=true
+remove offset=0,0 mgr=true after=true
+float x=0 y=157 ax=16 ay=184 mgr=true
+clear y=156 clearDelta=154
+float x=0 y=169 ax=16 ay=196 mgr=true
+translate BlockFormattingContext: (-10,0)
+remove offset=0,0 mgr=true after=true
+op ax=29 ay=64
+op ax=29 ay=71
+op ax=166 ay=71
+op ax=29 ay=201
+op ax=29 ay=213
+op ax=152 ay=44
+op ax=31 ay=144
+loc ax=152 ay=44
+loc ax=29 ay=64
+loc ax=29 ay=71
+loc ax=166 ay=71
+loc ax=31 ay=144
+loc ax=29 ay=201
+loc ax=29 ay=213
+run 59
+line left=0 right=0 both=0 delta=0
+line left=0 right=0 both=0 delta=0
+float x=54 y=35 ax=72 ay=35 mgr=true
+translate BlockFormattingContext: (1,0)
+remove offset=0,0 mgr=true after=true
+clear y=35 clearDelta=-35
+clear y=59 clearDelta=-59
+float x=0 y=96 ax=17 ay=96 mgr=true
+float x=20 y=96 ax=37 ay=96 mgr=true
+float x=73 y=96 ax=90 ay=96 mgr=true
+line left=50 right=40 both=90 delta=18
+translate BlockFormattingContext: (1,-5)
+clear y=119 clearDelta=26
+float x=57 y=128 ax=74 ay=133 mgr=true
+float x=72 y=175 ax=89 ay=180 mgr=true
+clear y=128 clearDelta=108
+translate BlockFormattingContext: (-2,-17)
+translate BlockFormattingContext: (-9,-21)
+remove offset=1,0 mgr=true after=true
+float x=0 y=215 ax=27 ay=236 mgr=true
+translate BlockFormattingContext: (-15,-17)
+op ax=30 ay=113
+op ax=50 ay=113
+op ax=40 ay=253
+op ax=87 ay=150
+op ax=102 ay=197
+loc ax=30 ay=113
+loc ax=50 ay=113
+loc ax=87 ay=150
+loc ax=102 ay=197
+loc ax=40 ay=253
