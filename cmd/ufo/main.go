@@ -21,6 +21,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"runtime/debug"
 	"strings"
 
 	"github.com/octoberswimmer/ufo/dom"
@@ -30,6 +31,18 @@ import (
 
 // version is set when a release is built (see the Makefile).
 var version = "dev"
+
+// buildVersion is the version ufo reports: the one a release build sets, or,
+// for a binary built with go install, the module version Go records in it.
+func buildVersion() string {
+	if version != "dev" {
+		return version
+	}
+	if info, ok := debug.ReadBuildInfo(); ok && info.Main.Version != "" && info.Main.Version != "(devel)" {
+		return info.Main.Version
+	}
+	return version
+}
 
 func main() {
 	if err := run(os.Args[1:]); err != nil {
@@ -43,7 +56,7 @@ func run(args []string) error {
 		return pipe.Serve(os.Stdin, os.Stdout)
 	}
 	if len(args) == 1 && (args[0] == "version" || args[0] == "--version") {
-		fmt.Println(version)
+		fmt.Println(buildVersion())
 		return nil
 	}
 	if len(args) != 2 {

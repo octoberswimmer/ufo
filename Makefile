@@ -95,6 +95,7 @@ release: checksum
 	fi
 	git push octoberswimmer "$(VERSION)"
 	gh release create "$(VERSION)" --title "ufo $(VERSION)" --notes-from-tag --verify-tag $(RELEASE_ASSETS)
+	brew bump-cask-pr ufo --version $(VERSION:v%=%)
 
 fmt:
 	go fmt ./...

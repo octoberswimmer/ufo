@@ -9,6 +9,31 @@ running it as a separate program (`ufo pipe`).
 The port follows the Java source class by class (see `PORTING.md`), so that
 Flying Saucer's own test suite, ported alongside the code, validates it.
 
+## Installation
+
+With Homebrew, on macOS or Linux:
+
+```
+brew install octoberswimmer/tap/ufo
+```
+
+Or download the zip for your platform (Linux, macOS and Windows, on amd64 and
+arm64) from the [releases page](https://github.com/octoberswimmer/ufo/releases),
+check it against the release's `SHA256SUMS` file, and put the `ufo`
+executable on your `PATH`.
+
+Or build it with Go:
+
+```
+go install github.com/octoberswimmer/ufo/cmd/ufo@latest
+```
+
+`ufo version` prints the installed version.
+
+To render Visualforce pages with `renderAs="pdf"` in
+[aer](https://github.com/octoberswimmer/aer), install ufo on the `PATH` or
+beside the `aer` executable, or set `AER_UFO_PATH` to its path.
+
 ## Status
 
 Every class of `flying-saucer-core` and `flying-saucer-pdf` is ported except
@@ -58,7 +83,9 @@ package `github.com/octoberswimmer/ufo/pipe`.
 - `make release`, with HEAD at that tag, runs the tests, builds zips for
   Linux, macOS and Windows on amd64 and arm64, signs and notarizes the macOS
   binaries, writes `SHA256SUMS-<version>`, pushes the tag to the
-  `octoberswimmer` remote and creates the GitHub release with `gh`. Each zip
+  `octoberswimmer` remote, creates the GitHub release with `gh`, and opens a
+  pull request updating the `ufo` cask in the `octoberswimmer/tap` Homebrew
+  tap (`brew install octoberswimmer/tap/ufo`). Each zip
   holds the binary, `LICENSE` and this README; the LGPL requires the licence
   text to accompany the binary, and the release's source is the tag it was
   built from.
