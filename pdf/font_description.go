@@ -16,6 +16,16 @@ type FontDescription struct {
 	font           *writer.BaseFont
 	decorations    *FontDescriptionDecorations
 	isFromFontFace bool
+
+	// fallback supplies the font that draws the characters font cannot
+	// show; nil when there is none. It is not part of the Java class.
+	fallback func() (*writer.BaseFont, error)
+}
+
+// fontRun is a piece of a text drawn with one font.
+type fontRun struct {
+	font *writer.BaseFont
+	text string
 }
 
 func NewFontDescription(font *writer.BaseFont) *FontDescription {
@@ -46,6 +56,58 @@ func NewFontDescriptionWithIsFromFontFaceStyleDecorations(font *writer.BaseFont,
 
 func (d *FontDescription) GetFont() *writer.BaseFont {
 	return d.font
+}
+
+// SetFallbackFont names the font that draws the characters this
+// description's font cannot show, such as Japanese text in a description of
+// Helvetica. The other characters keep the description's font, and so their
+// widths. fallback is called when a text first holds such a character; the
+// error it returns stops the rendering. It is not part of the Java class,
+// where a character the font cannot show is left out.
+func (d *FontDescription) SetFallbackFont(fallback func() (*writer.BaseFont, error)) {
+	d.fallback = fallback
+}
+
+// fontFor returns the font that draws r: the fallback font when the
+// description's font cannot show r and the fallback font can, the
+// description's font otherwise.
+func (d *FontDescription) fontFor(r rune) *writer.BaseFont {
+	if d.fallback == nil || d.font.CharExists(r) {
+		return d.font
+	}
+	fallback, err := d.fallback()
+	if err != nil {
+		panic(fmt.Errorf("the fallback font of %s could not be loaded: %w", d.font.GetPostscriptFontName(), err))
+	}
+	if fallback.CharExists(r) {
+		return fallback
+	}
+	return d.font
+}
+
+// fontRuns splits s into the pieces drawn with one font each, in order. A
+// description without a fallback font draws s whole.
+func (d *FontDescription) fontRuns(s string) []fontRun {
+	if d.fallback == nil {
+		return []fontRun{{font: d.font, text: s}}
+	}
+	var runs []fontRun
+	start := 0
+	var current *writer.BaseFont
+	for i, r := range s {
+		font := d.fontFor(r)
+		if font == current {
+			continue
+		}
+		if current != nil {
+			runs = append(runs, fontRun{font: current, text: s[start:i]})
+		}
+		current, start = font, i
+	}
+	if current != nil {
+		runs = append(runs, fontRun{font: current, text: s[start:]})
+	}
+	return runs
 }
 
 func (d *FontDescription) GetWeight() int {

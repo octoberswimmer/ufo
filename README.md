@@ -72,6 +72,23 @@ stylesheets, images and fonts it refers to, and ufo sends back the PDF. This
 lets a program use ufo without linking it. The protocol is documented in
 package `github.com/octoberswimmer/ufo/pipe`.
 
+## Fonts
+
+Text is drawn with the 14 standard PDF fonts, which a PDF reader supplies, or
+with a TrueType font the document loads through `@font-face`. A TrueType font
+is embedded in the PDF as a subset: the font file with the outlines of the
+glyphs the document draws.
+
+The standard fonts show the characters of Windows-1252 only, and a character
+a font cannot show is left out. ufo ships one font for other scripts,
+WenQuanYi Micro Hei, with glyphs for Latin, Greek, Cyrillic, Japanese, Chinese
+and Korean text. A font family draws with it the characters its own font
+cannot show when the bundled font is named as the family's fallback font:
+through `"fallbackFonts"` in a `ufo pipe` request, or with
+`FontDescription.SetFallbackFont` from Go. The other characters keep the
+family's font and its widths. `pdf/fonts/NOTICE.md` gives the font's origin
+and license.
+
 ## Building and releasing
 
 - `make` builds `./ufo`; `make install` installs it. `ufo version` prints the
@@ -88,7 +105,9 @@ package `github.com/octoberswimmer/ufo/pipe`.
   tap (`brew install octoberswimmer/tap/ufo`). Each zip
   holds the binary, `LICENSE` and this README; the LGPL requires the licence
   text to accompany the binary, and the release's source is the tag it was
-  built from.
+  built from. It also holds the notice and the license of the font the binary
+  contains (`pdf/fonts/NOTICE.md`, `LICENSE-Apache-2.0.txt` and
+  `wqy-microhei-README.txt`), which the Apache License requires.
 
 ## Layout
 
@@ -101,6 +120,7 @@ package `github.com/octoberswimmer/ufo/pipe`.
   box tree, layout, tables, painting.
 - `github.com/octoberswimmer/ufo/pdf` — `flying-saucer-pdf`: the PDF output
   device and the `ITextRenderer` entry point.
+- `github.com/octoberswimmer/ufo/pdf/fonts` — the fonts that ship inside ufo.
 - `github.com/octoberswimmer/ufo/pipe` — the `ufo pipe` protocol.
 - `github.com/octoberswimmer/ufo/pdf/writer` — the PDF file writer the output
   device draws through, with the content-stream level API the Java source
@@ -112,3 +132,6 @@ package `github.com/octoberswimmer/ufo/pipe`.
 Flying Saucer is licensed under the GNU Lesser General Public License, version
 2.1 or later. ufo is a derivative work and carries the same license; see
 `LICENSE`.
+
+The bundled font WenQuanYi Micro Hei is distributed under the Apache License
+2.0; see `pdf/fonts/NOTICE.md`.

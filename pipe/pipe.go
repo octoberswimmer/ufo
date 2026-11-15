@@ -7,11 +7,11 @@
 // # Protocol
 //
 // Messages are JSON objects, one per line (UTF-8, terminated by "\n"), in both
-// directions. Byte strings are base64 encoded. Protocol version 1:
+// directions. Byte strings are base64 encoded. Protocol version 2:
 //
 // The client sends one request:
 //
-//	{"type":"render","protocol":1,"html":"<html>…","baseURL":"https://host/apex/Page"}
+//	{"type":"render","protocol":2,"html":"<html>…","baseURL":"https://host/apex/Page"}
 //
 // html is parsed with the HTML5 parsing algorithm, or as XML when "xml":true.
 // Relative URLs in the document resolve against baseURL. An optional
@@ -24,6 +24,17 @@
 // is, without the simulated bold ufo otherwise draws for a family with no bold
 // face; this is how Salesforce's PDF renderer draws bold text in its
 // single-face Arial Unicode MS.
+//
+// The base-14 fonts show the characters of Windows-1252 only. An optional
+// "fallbackFonts" object names, for a font family, the font bundled with ufo
+// (package github.com/octoberswimmer/ufo/pdf/fonts) that draws the characters
+// the family's own fonts cannot show:
+//
+//	"fallbackFonts":{"Arial Unicode MS":"WenQuanYi Micro Hei"}
+//
+// The other characters keep the family's font and its widths. The bundled
+// font is embedded in the PDF as a subset holding the glyphs that were drawn.
+// The family is one named in "fontFamilies" or one ufo defines itself.
 //
 // While rendering, ufo asks for each resource the document refers to
 // (stylesheets, images, fonts), identified by its resolved URL:
@@ -44,7 +55,8 @@
 //	{"type":"error","message":"…"}
 //
 // and exits. A request with a protocol version ufo does not speak is answered
-// with an error message.
+// with an error message. Version 1 is version 2 without "fallbackFonts", and
+// is still accepted.
 package pipe
 
 import (
@@ -54,15 +66,20 @@ import (
 	"fmt"
 	"io"
 	"runtime/debug"
+	"strings"
 
 	"github.com/octoberswimmer/ufo"
 	"github.com/octoberswimmer/ufo/dom"
 	"github.com/octoberswimmer/ufo/pdf"
+	"github.com/octoberswimmer/ufo/pdf/fonts"
 	"github.com/octoberswimmer/ufo/pdf/writer"
 )
 
-// ProtocolVersion is the protocol this package speaks.
-const ProtocolVersion = 1
+// ProtocolVersion is the newest protocol this package speaks. Requests of
+// every version from oldestProtocolVersion on are accepted.
+const ProtocolVersion = 2
+
+const oldestProtocolVersion = 1
 
 // Message is one line of the protocol, in either direction.
 type Message struct {
@@ -73,12 +90,15 @@ type Message struct {
 	BaseURL  string `json:"baseURL,omitempty"`
 	// FontFamilies maps CSS font family names to base-14 font names.
 	FontFamilies map[string]string `json:"fontFamilies,omitempty"`
-	ID           int               `json:"id,omitempty"`
-	URL          string            `json:"url,omitempty"`
-	Data         []byte            `json:"data,omitempty"`
-	Error        string            `json:"error,omitempty"`
-	PDF          []byte            `json:"pdf,omitempty"`
-	Message      string            `json:"message,omitempty"`
+	// FallbackFonts maps CSS font family names to the bundled font that
+	// draws the characters the family's fonts cannot show.
+	FallbackFonts map[string]string `json:"fallbackFonts,omitempty"`
+	ID            int               `json:"id,omitempty"`
+	URL           string            `json:"url,omitempty"`
+	Data          []byte            `json:"data,omitempty"`
+	Error         string            `json:"error,omitempty"`
+	PDF           []byte            `json:"pdf,omitempty"`
+	Message       string            `json:"message,omitempty"`
 }
 
 // Serve reads one render request from in, renders it, and writes the result
@@ -95,8 +115,8 @@ func Serve(in io.Reader, out io.Writer) error {
 	switch {
 	case request.Type != "render":
 		renderErr = fmt.Errorf("expected a render request, got %q", request.Type)
-	case request.Protocol != ProtocolVersion:
-		renderErr = fmt.Errorf("protocol version %d is not supported; this ufo speaks version %d", request.Protocol, ProtocolVersion)
+	case request.Protocol < oldestProtocolVersion || request.Protocol > ProtocolVersion:
+		renderErr = fmt.Errorf("protocol version %d is not supported; this ufo speaks versions %d to %d", request.Protocol, oldestProtocolVersion, ProtocolVersion)
 	default:
 		content, renderErr = conn.render(request)
 	}
@@ -167,6 +187,9 @@ func (c *conn) render(request Message) (content []byte, err error) {
 	if err := addFontFamilies(renderer, request.FontFamilies); err != nil {
 		return nil, err
 	}
+	if err := addFallbackFonts(renderer, request.FallbackFonts); err != nil {
+		return nil, err
+	}
 
 	if request.XML {
 		doc, err := dom.ParseXMLString(request.HTML)
@@ -210,6 +233,29 @@ func addFontFamilies(renderer *pdf.ITextRenderer, families map[string]string) er
 		family.AddFontDescription(pdf.NewFontDescriptionWithStyleWeight(font, ufo.IdentValueNormal, 400))
 		family.AddFontDescription(pdf.NewFontDescriptionWithStyleWeight(font, ufo.IdentValueNormal, 700))
 		fonts[name] = family
+	}
+	return nil
+}
+
+// addFallbackFonts gives every face of each named family the bundled font
+// that draws the characters the face cannot show.
+func addFallbackFonts(renderer *pdf.ITextRenderer, fallbacks map[string]string) error {
+	if len(fallbacks) == 0 {
+		return nil
+	}
+	families := renderer.GetFontResolver().GetFonts()
+	for name, fontName := range fallbacks {
+		family, ok := families[name]
+		if !ok {
+			return fmt.Errorf("fallback font of %q: there is no font family of that name", name)
+		}
+		font, ok := fonts.Lookup(fontName)
+		if !ok {
+			return fmt.Errorf("fallback font of %q: %s is not a font bundled with ufo (%s)", name, fontName, strings.Join(fonts.Names(), ", "))
+		}
+		for _, description := range family.GetFontDescriptions() {
+			description.SetFallbackFont(font.BaseFont)
+		}
 	}
 	return nil
 }

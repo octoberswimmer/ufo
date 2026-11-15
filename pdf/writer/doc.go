@@ -208,10 +208,16 @@
 //
 // A TrueType font (.ttf, glyf-based .otf, or "file.ttc,N") is always written
 // as a Type 0 font with Identity-H encoding over a CIDFontType2 descendant,
-// with the whole font file as FontFile2, a /W array and a ToUnicode CMap for
-// the glyphs shown; text is written as two-byte glyph ids. The encoding and
-// embedded arguments of CreateFont do not change that. Characters without a
-// glyph are left out. Metrics follow TrueTypeFont (see GetFontDescriptor).
+// with a subset of the font file as FontFile2, a /W array and a ToUnicode CMap
+// for the glyphs shown; text is written as two-byte glyph ids. The subset is
+// the one TrueTypeFontSubSet builds: the tables cvt, fpgm, glyf, head, hhea,
+// hmtx, loca, maxp and prep, with the outlines of the glyphs shown, of glyph
+// 0 and of the glyphs those are composed of; glyph ids do not change. The
+// font is named with a six-letter tag and "+" before its name, derived from
+// the glyphs of the subset where OpenPDF picks the letters at random. The
+// encoding and embedded arguments of CreateFont do not change any of that.
+// Characters without a glyph are left out. Metrics follow TrueTypeFont (see
+// GetFontDescriptor).
 // What TrueTypeUtil and ITextFontResolver read through reflection or a
 // RandomAccessFileOrArray is available as GetOS2WeightClass,
 // GetOS2FsSelection, GetHeadMacStyle, IsItalic, IsBold, IsFixedPitch,

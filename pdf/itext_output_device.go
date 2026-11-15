@@ -887,7 +887,10 @@ func (d *ITextOutputDevice) DrawString(s string, x float32, y float32, info *ufo
 	resetMode := false
 	desc := d.font.GetFontDescription()
 	fontSize := d.font.GetSize2D() / d.dotsPerPoint
-	cb.SetFontAndSize(desc.GetFont(), fontSize)
+	// The pieces of s that the description's font cannot show are drawn
+	// with its fallback font; each piece starts where the one before ended.
+	runs := desc.fontRuns(s)
+	cb.SetFontAndSize(runs[0].font, fontSize)
 	b := float32(mx[1])
 	c := float32(mx[2])
 	fontSpec := d.GetFontSpecification()
@@ -908,11 +911,16 @@ func (d *ITextOutputDevice) DrawString(s string, x float32, y float32, info *ufo
 		}
 	}
 	cb.SetTextMatrix(float32(mx[0]), b, c, float32(mx[3]), float32(mx[4]), float32(mx[5]))
-	if info == nil {
-		cb.ShowText(s)
-	} else {
-		array := d.makeJustificationArray(s, info)
-		cb.ShowTextArray(array)
+	for i, run := range runs {
+		if i > 0 {
+			cb.SetFontAndSize(run.font, fontSize)
+		}
+		if info == nil {
+			cb.ShowText(run.text)
+		} else {
+			array := d.makeJustificationArray(run.text, info, i == len(runs)-1)
+			cb.ShowTextArray(array)
+		}
 	}
 	if resetMode {
 		cb.SetTextRenderingMode(writer.PdfContentByteTextRenderModeFill)
@@ -936,7 +944,7 @@ func (d *ITextOutputDevice) replaceMissingCharacters(s string) string {
 	// iterate through each character in the string and make an appropriate
 	// replacement
 	for i := range charArr {
-		if !(charArr[i] == ' ' || charArr[i] == ' ' || charArr[i] == '　' || d.font.GetFontDescription().GetFont().
+		if !(charArr[i] == ' ' || charArr[i] == ' ' || charArr[i] == '　' || d.font.GetFontDescription().fontFor(charArr[i]).
 			CharExists(charArr[i])) {
 			ufo.XRLogRender(ufo.LevelInfo, "Missing character ["+string(charArr[i])+":"+strconv.Itoa(int(charArr[i]))+"] in string ["+s+
 				"]. Replacing with '"+string(replacementCharacter)+"'")
@@ -947,14 +955,17 @@ func (d *ITextOutputDevice) replaceMissingCharacters(s string) string {
 	return string(charArr)
 }
 
-func (d *ITextOutputDevice) makeJustificationArray(s string, info *ufo.JustificationInfo) *writer.PdfTextArray {
+// makeJustificationArray returns the characters of s, each followed by the
+// adjustment of the space after it. last is false when s is a piece of a
+// text that more pieces follow, so that its last character is adjusted too.
+func (d *ITextOutputDevice) makeJustificationArray(s string, info *ufo.JustificationInfo, last bool) *writer.PdfTextArray {
 	array := writer.NewPdfTextArray()
 	length := len(s)
 	for i := 0; i < length; {
 		c, size := utf8.DecodeRuneInString(s[i:])
 		end := i + size
 		array.AddString(s[i:end])
-		if end != length {
+		if end != length || !last {
 			var offset float32
 			if c == ' ' || c == ' ' || c == '　' {
 				offset = info.SpaceAdjust()

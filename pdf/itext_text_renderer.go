@@ -58,8 +58,13 @@ func (r *ITextTextRenderer) GetFSFontMetrics(context ufo.FontContext, font ufo.F
 
 func (r *ITextTextRenderer) GetWidth(context ufo.FontContext, font ufo.FSFont, str string) int {
 	itextFont := font.(*ITextFSFont)
-	bf := itextFont.GetFontDescription().GetFont()
-	result := bf.GetWidthPoint(str, itextFont.GetSize2D())
+	// The width of a text is the sum of the widths of its pieces in the
+	// font each is drawn with: one piece, in the description's font, unless
+	// the description has a fallback font.
+	var result float32
+	for _, run := range itextFont.GetFontDescription().fontRuns(str) {
+		result += run.font.GetWidthPoint(run.text, itextFont.GetSize2D())
+	}
 	if float64(result)-math.Floor(float64(result)) < iTextTextRendererTextMeasuringDelta {
 		return int(result)
 	} else {

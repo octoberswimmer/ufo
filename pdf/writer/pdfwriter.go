@@ -515,7 +515,10 @@ func (w *PdfWriter) closeDocument() error {
 		w.writeTemplate(w.templates[i])
 	}
 	for _, f := range w.fonts {
-		w.writeFont(f)
+		if err := w.writeFont(f); err != nil {
+			w.closed = true
+			return err
+		}
 	}
 
 	kids := NewPdfArray()

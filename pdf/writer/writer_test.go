@@ -528,7 +528,8 @@ func TestTrueTypeRoundTrip(t *testing.T) {
 	if got != want {
 		t.Errorf("PageText =\n%q\nwant\n%q", got, want)
 	}
-	if fonts := rd.PageFonts(0); len(fonts) != 2 || fonts[0] != "DejaVuSans" || fonts[1] != "Helvetica" {
+	// The embedded font is named with the tag of its subset.
+	if fonts := rd.PageFonts(0); len(fonts) != 2 || fonts[0] != "Helvetica" || !regexp.MustCompile(`^[A-Z]{6}\+DejaVuSans$`).MatchString(fonts[1]) {
 		t.Errorf("PageFonts = %v", fonts)
 	}
 
@@ -545,7 +546,7 @@ func TestTrueTypeRoundTrip(t *testing.T) {
 		if err != nil {
 			t.Fatalf("pdffonts: %v\n%s", err, out)
 		}
-		if !regexp.MustCompile(`DejaVuSans\s+CID TrueType\s+Identity-H\s+yes`).Match(out) {
+		if !regexp.MustCompile(`[A-Z]{6}\+DejaVuSans\s+CID TrueType\s+Identity-H\s+yes\s+yes`).Match(out) {
 			t.Errorf("pdffonts does not report an embedded CID TrueType font:\n%s", out)
 		}
 	}

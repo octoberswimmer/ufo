@@ -17,7 +17,9 @@ RELEASE_ASSETS=$(ZIPS) SHA256SUMS-$(VERSION)
 # ufo is licensed under the LGPL, whose text has to accompany the binary.
 # The source of each release is the tag it is built from, which GitHub offers
 # as an archive on the release page.
-ZIP_EXTRAS=LICENSE README.md
+# The binary contains the font in pdf/fonts, whose notice and license (Apache
+# 2.0) have to accompany it as well.
+ZIP_EXTRAS=LICENSE README.md pdf/fonts/NOTICE.md pdf/fonts/LICENSE-Apache-2.0.txt pdf/fonts/wqy-microhei-README.txt
 
 default:
 	go build ${LDFLAGS} -o $(EXECUTABLE) $(PACKAGE)

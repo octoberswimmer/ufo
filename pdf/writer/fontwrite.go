@@ -7,12 +7,12 @@ import (
 )
 
 // writeFont writes the font dictionary of a font and the objects it needs.
-func (w *PdfWriter) writeFont(e *fontEntry) {
+func (w *PdfWriter) writeFont(e *fontEntry) error {
 	if e.font.tt == nil {
 		w.writeType1Font(e)
-		return
+		return nil
 	}
-	w.writeType0Font(e)
+	return w.writeType0Font(e)
 }
 
 // writeType1Font writes a standard font: no widths and no descriptor, which
@@ -29,19 +29,33 @@ func (w *PdfWriter) writeType1Font(e *fontEntry) {
 }
 
 // writeType0Font writes a TrueType font as a Type 0 font with Identity-H
-// encoding over a CIDFontType2 descendant: the whole font file as FontFile2,
-// a /W array and a ToUnicode CMap for the glyphs that were shown.
-func (w *PdfWriter) writeType0Font(e *fontEntry) {
+// encoding over a CIDFontType2 descendant: a subset of the font file as
+// FontFile2 (see subset.go), a /W array and a ToUnicode CMap for the glyphs
+// that were shown. The font is named with the tag of the subset, as
+// TrueTypeFontUnicode names it.
+func (w *PdfWriter) writeType0Font(e *fontEntry) error {
 	tt := e.font.tt
 	upem := tt.unitsPerEm
 
-	fileStream := w.newStream(tt.data)
-	fileStream.Put("Length1", PdfNumber(len(tt.data)))
+	glyphs := make([]int, 0, len(e.used))
+	for g := range e.used {
+		glyphs = append(glyphs, int(g))
+	}
+	sort.Ints(glyphs)
+
+	fontFile, err := tt.subset(e.used)
+	if err != nil {
+		return err
+	}
+	fontName := subsetTag(glyphs) + "+" + tt.fontName
+
+	fileStream := w.newStream(fontFile)
+	fileStream.Put("Length1", PdfNumber(len(fontFile)))
 	fileRef := w.newReference()
 	w.writeObject(fileRef, fileStream)
 
 	desc := NewPdfDictionaryWithType("FontDescriptor")
-	desc.Put("FontName", PdfName(tt.fontName))
+	desc.Put("FontName", PdfName(fontName))
 	flags := 0
 	if tt.isFixedPitch {
 		flags |= 1
@@ -70,12 +84,6 @@ func (w *PdfWriter) writeType0Font(e *fontEntry) {
 	descRef := w.newReference()
 	w.writeObject(descRef, desc)
 
-	glyphs := make([]int, 0, len(e.used))
-	for g := range e.used {
-		glyphs = append(glyphs, int(g))
-	}
-	sort.Ints(glyphs)
-
 	// /W as runs of consecutive glyph ids: first [w w w ...].
 	widths := NewPdfArray()
 	for i := 0; i < len(glyphs); {
@@ -92,7 +100,7 @@ func (w *PdfWriter) writeType0Font(e *fontEntry) {
 
 	cid := NewPdfDictionaryWithType("Font")
 	cid.Put("Subtype", PdfName("CIDFontType2"))
-	cid.Put("BaseFont", PdfName(tt.fontName))
+	cid.Put("BaseFont", PdfName(fontName))
 	sysInfo := NewPdfDictionary()
 	sysInfo.Put("Registry", NewPdfString("Adobe"))
 	sysInfo.Put("Ordering", NewPdfString("Identity"))
@@ -112,11 +120,12 @@ func (w *PdfWriter) writeType0Font(e *fontEntry) {
 
 	d := NewPdfDictionaryWithType("Font")
 	d.Put("Subtype", PdfName("Type0"))
-	d.Put("BaseFont", PdfName(tt.fontName))
+	d.Put("BaseFont", PdfName(fontName))
 	d.Put("Encoding", PdfName("Identity-H"))
 	d.Put("DescendantFonts", NewPdfArray(cidRef))
 	d.Put("ToUnicode", toUnicodeRef)
 	w.writeObject(e.ref, d)
+	return nil
 }
 
 // toUnicodeCMap returns a CMap that maps each two-byte glyph id to the
